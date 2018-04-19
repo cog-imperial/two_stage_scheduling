@@ -18,7 +18,7 @@ That is, the repository contains:
 4. a source code implementing the recovery strategies in Python 2.7.6 and Pyomo 4.4.1, and
 5. the solutions obtained by an Intel Core i7-4790 CPU 3.60 GHz with 15.6 GB RAM and 64-bit Ubuntu 14.04.
 
-1.  Performance Evaluation of Lexicographic Optimization Methods
+## 1.  Performance Evaluation of Lexicographic Optimization Methods
 
 The repository contains a source code evaluating the performance of exact, lexicographic optimization methods for the makespan scheduling problem. The evaluation consists of two steps: 1) generation of benchmark instances, and 2) application of the lexicographic optimization methods to the instances.
 
