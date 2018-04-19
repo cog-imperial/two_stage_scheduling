@@ -36,6 +36,7 @@ We have generated diverse instances with different optimal solution structure (w
 
 An makespan problem instance consists of (i) a number m of machines, (ii) a number n of jobs, (iii) a processing time parameter q, (iv) a probability distribution for generating the processing times, and (v) a vector p of processing times (p[j] is the processing time of job j). This information is stored in a .dat file under the following format:
 
+```
 m=3
 n=20
 q=100
@@ -44,6 +45,7 @@ p[0]=14
 p[1]=77
 p[2]=65
 ...
+```
 
 ### 1.2  Lexicographic Optimization Methods
 
@@ -59,6 +61,7 @@ This repository provides a source code that produces a lexicographic optimal sol
 
 Directory data/solutions/planning stores the obtained results. For a given instance, the solution produced by each lexicographic optimization method is stored in distinct .sol file. This file contains statistics of the solution process and the obtained solution. The following exact method statistics are stored: (i) elapsed time, (ii) nodes explored, (iii) nodes left, (iv) relative gap, (v) upper bound, and (vi) lower bound. If an entry does not apply for a given method, then the corresponding entry of the solution file stores a dash (i.e. “-”). The remaining entries store the machine completion times and the job assignments. In particular, C[i] is the completion time of machine i. The entry y[j]=i indicates an assignment of job j to machine i. A solution is stored in a .sol file under the following format:
 
+```
 Elapsed time: 0.29
 Nodes explored: 15658
 Nodes left: 16
@@ -73,6 +76,7 @@ y[1]=1
 y[2]=2
 y[3]=2
 …
+```
 
 ## 2  Two-Stage Scheduling Simulation
 
@@ -90,6 +94,7 @@ Directory data/solutions/pools stores a solution pool for each initial instance.
 
 A solution, i.e. schedule, is associated with a weighted value. Furthermore, it specifies a completion time for each machine and a machine assignment for each job. The term C[i] corresponds to the completion time of machine i and the term y[j] specifies the machine which job j is assigned to. This information of a schedule in a solution pool is stored in a .sol file under the following format:
 
+```
 Weighted value: 2385.0
 C[0]=341.0
 C[1]=341.0
@@ -99,6 +104,7 @@ y[1]=1
 y[2]=0
 y[3]=2
 …
+```
 
 ### 2.3  Perturbations
 
@@ -110,11 +116,13 @@ A perturbator has generated a set of  random disturbances to each initial makesp
 
 The number of machine and job perturbations is a small fraction (10%) of the number of machines and jobs, respectively, in the initial instance. Directory data/inputs/perturbations stores the randomly generated set of perturbations for each initial instance. These perturbations are stored in a .prt file under the following format:
 
+```
 Machine failure 0
 Job cancellation 9
 Job cancellation 1
 Job addition 25
 Job cancellation 9
+```
 
 ### 2.4  Recovery
 
