@@ -22,7 +22,7 @@ That is, the repository contains:
 
 The repository contains a source code evaluating the performance of exact, lexicographic optimization methods for the makespan scheduling problem. The evaluation consists of two steps: 1) generation of benchmark instances, and 2) application of the lexicographic optimization methods to the instances.
 
-1.1  Benchmark Makespan Problem Instances
+### 1.1  Benchmark Makespan Problem Instances
 
 This repository contains a collection of 384 makespan problem instances. These instances have been generated randomly using the modules wellformed_instance_generator.py and  degenerate_instance_generator.py in directory lib/input_generation/. Directory data/inputs/instances stores the generated instances. 
 
@@ -45,7 +45,7 @@ p[1]=77
 p[2]=65
 ...
 
-1.2  Lexicographic Optimization Methods
+### 1.2  Lexicographic Optimization Methods
 
 This repository provides a source code that produces a lexicographic optimal solution for the makespan scheduling problem using different exact methods. Directory lib/planning/solvers consists of a module for each implemented method. Directory lib/planning contains a handler that calls the lexicographic optimization methods for solving each problem instance. 
 
@@ -74,15 +74,15 @@ y[2]=2
 y[3]=2
 …
 
-2  Two-Stage Scheduling Simulation
+## 2  Two-Stage Scheduling Simulation
 
 The repository contains a source code that simulates a two-stage scheduling model and evaluates the impact of lexicographic optimality on the quality of the recovered solution. A simulation consists of four steps: 1) generation of initial makespan problem instances, 2) computation of a solution pool with multiple, diverse solutions for each instance, 3) perturbation of every instance, 4) recovery of each initial solution in the solution pool into a feasible solution for the perturbed instance. 
 
-2.1  Initial Makespan Problem Instances
+### 2.1  Initial Makespan Problem Instances
 
 The initial makespan problem instances are the ones used for evaluating the performance of exact, lexicographic optimization methods. Section 1.1 “Benchmark Makespan Problem Instances” of the current repository description provides information on how to generate the instances. Directory data/inputs/instances stores these initial instances.
 
-2.2  Solution pool
+### 2.2  Solution pool
 
 A solution pool generator has produced a set of diverse solutions for each initial instance using the CPLEX solution pool feature. Module solution_pool_generator.py generates the instances. Module solution_pool_handler.py triggers the solution pool generator for each instance. Both modules are stored in directory lib/solution_pool_generation.
 
@@ -100,7 +100,7 @@ y[2]=0
 y[3]=2
 …
 
-2.3  Perturbations
+### 2.3  Perturbations
 
 A perturbator has generated a set of  random disturbances to each initial makespan problem instance. Module perturbator.py in directory lib/input_generation implements this generator producing machine perturbations and job perturbations.
  
@@ -116,7 +116,7 @@ Job cancellation 1
 Job addition 25
 Job cancellation 9
 
-2.4  Recovery
+### 2.4  Recovery
 
 This repository provides a source code that recovers an initial solution for an initial makespan problem instance which is perturbed into a feasible solution for the perturbed instance. Recovery takes into account the (i) initial instance, (ii) initial solution, (iii) perturbations. 
 
@@ -128,7 +128,7 @@ The repository implements two recovery strategies based on the number g of allow
 
 For each combination of initial instance, initial solution, perturbations and recovery strategy, the initial solution is recovered into a feasible solution for the perturbed problem instance. Directory data/solutions/recovery stores a recovered solutions.  
 
-3  Repository Contents
+## 3  Repository Contents
 
 data: all input and output data (problem instances and obtained results)
 inputs: minimum makespan problem instances and perturbations
