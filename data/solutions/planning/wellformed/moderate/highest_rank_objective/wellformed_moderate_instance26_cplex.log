@@ -1,0 +1,85 @@
+Found incumbent of value 1950.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+Aggregator did 4 substitutions.
+Reduced MIP has 24 rows, 81 columns, and 164 nonzeros.
+Reduced MIP has 80 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.19 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 24 rows, 81 columns, and 164 nonzeros.
+Reduced MIP has 80 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.11 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Clique table members: 20.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1950.0000      167.0000            91.44%
+      0     0      487.5000     7     1950.0000      487.5000       25   75.00%
+*     0+    0                          549.0000      487.5000            11.20%
+      0     0      488.0000     8      549.0000       Cuts: 6       33   11.11%
+*     0+    0                          526.0000      488.0000             7.22%
+      0     0      488.0000     8      526.0000      Cuts: 10       44    7.22%
+      0     0      488.0000    10      526.0000       Cuts: 9       61    7.22%
+*     0+    0                          501.0000      488.0000             2.59%
+      0     2      488.0000     4      501.0000      488.0000       66    2.59%
+Elapsed time = 0.01 sec. (3.88 ticks, tree = 0.01 MB, solutions = 4)
+*    20+   20                          496.0000      488.0000             1.61%
+*    89    59      integral     0      493.0000      488.0000      259    1.01%
+*   228   147      integral     0      490.0000      488.0000      557    0.41%
+*   506   242      integral     0      489.0000      488.0000     1037    0.20%
+*   511     0      integral     0      488.0000      488.0000     1042    0.00%
+
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.87 ticks)
+Sequential b&c:
+  Real time             =    0.02 sec. (11.18 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (15.05 ticks)
+
+Populate: phase II 
+Tried aggregator 2 times.
+Aggregator did 4 substitutions.
+Reduced MIP has 24 rows, 81 columns, and 164 nonzeros.
+Reduced MIP has 80 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.19 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+Cover probing fixed 0 vars, tightened 1 bounds.
+Clique table members: 20.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          488.0000        0.0000           100.00%
+      0     0      487.5000     7      488.0000      487.5000       25    0.10%
+      0     2      488.0000     6      488.0000      488.0000       25    0.00%
+Elapsed time = 0.00 sec. (2.01 ticks, tree = 0.01 MB, solutions = 17)
+     15    17      488.0000     5      488.0000      488.0000       69    0.00%
+     16    18      488.0000     5      488.0000      488.0000       75    0.00%
+     17    19      488.0000     5      488.0000      488.0000       77    0.00%
+     18    20      488.0000     6      488.0000      488.0000       80    0.00%
+     19    21      488.0000     6      488.0000      488.0000       82    0.00%
+     20    22      488.0000     4      488.0000      488.0000       85    0.00%
+     21    23      488.0000     4      488.0000      488.0000       89    0.00%
+     22    24      488.0000     4      488.0000      488.0000       90    0.00%
+     23    25      488.0000     4      488.0000      488.0000       91    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (3.20 ticks)
+Sequential b&c:
+  Real time             =    1.86 sec. (944.88 ticks)
+                          ------------
+Total (root+branch&cut) =    1.92 sec. (948.08 ticks)

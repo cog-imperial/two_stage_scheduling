@@ -1,0 +1,42 @@
+
+Gurobi 6.5.2 (linux64) logging started Fri Mar  2 13:50:59 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/moderate/weighting/wellformed_moderate_instance67_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 60 rows, 256 columns and 514 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+02]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 17923
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 57 rows, 253 columns, 509 nonzeros
+Variable types: 0 continuous, 253 integer (250 binary)
+
+Root relaxation: objective 1.433440e+04, 83 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 14334.4000    0   10 17923.0000 14334.4000  20.0%     -    0s
+H    0     0                    14618.000000 14334.4000  1.94%     -    0s
+H    0     0                    14369.000000 14334.4000  0.24%     -    0s
+     0     0 14334.4000    0   14 14369.0000 14334.4000  0.24%     -    0s
+     0     0 14334.4000    0   15 14369.0000 14334.4000  0.24%     -    0s
+     0     0 14334.4000    0   17 14369.0000 14334.4000  0.24%     -    0s
+     0     0 14334.4000    0    8 14369.0000 14334.4000  0.24%     -    0s
+     0     2 14334.4000    0    8 14369.0000 14334.4000  0.24%     -    0s
+*  235   173              87    14365.000000 14334.4000  0.21%   2.3    0s
+*  329   244              83    14364.000000 14334.4000  0.21%   2.3    0s
+H  470   216                    14349.000000 14334.4000  0.10%   2.3    0s
+*  509    31              93    14346.000000 14334.4000  0.08%   2.3    0s
+
+Explored 514 nodes (1574 simplex iterations) in 0.06 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.434600000000e+04, best bound 1.434600000000e+04, gap 0.0%

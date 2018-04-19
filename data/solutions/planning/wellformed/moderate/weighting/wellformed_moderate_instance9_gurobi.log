@@ -1,0 +1,45 @@
+
+Gurobi 6.5.2 (linux64) logging started Fri Mar  2 12:47:36 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/moderate/weighting/wellformed_moderate_instance9_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 36 rows, 94 columns and 188 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+02]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 8967
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 33 rows, 91 columns, 183 nonzeros
+Variable types: 0 continuous, 91 integer (90 binary)
+
+Root relaxation: objective 7.541333e+03, 38 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 7541.33333    0    5 8967.00000 7541.33333  15.9%     -    0s
+H    0     0                    8076.0000000 7541.33333  6.62%     -    0s
+H    0     0                    7776.0000000 7541.33333  3.02%     -    0s
+     0     0 7543.00000    0    8 7776.00000 7543.00000  3.00%     -    0s
+H    0     0                    7690.0000000 7543.00000  1.91%     -    0s
+H    0     0                    7556.0000000 7543.00000  0.17%     -    0s
+     0     0 7543.00000    0    6 7556.00000 7543.00000  0.17%     -    0s
+     0     0 7543.00000    0   10 7556.00000 7543.00000  0.17%     -    0s
+     0     0 7543.00000    0    3 7556.00000 7543.00000  0.17%     -    0s
+H    0     0                    7552.0000000 7543.00000  0.12%     -    0s
+     0     2 7543.00000    0    3 7552.00000 7543.00000  0.12%     -    0s
+*   68     1              35    7543.0000000 7543.00000  0.00%   1.6    0s
+
+Cutting planes:
+  Gomory: 2
+
+Explored 69 nodes (216 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.543000000000e+03, best bound 7.543000000000e+03, gap 0.0%

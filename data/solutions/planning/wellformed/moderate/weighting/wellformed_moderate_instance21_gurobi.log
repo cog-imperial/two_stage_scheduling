@@ -1,0 +1,41 @@
+
+Gurobi 6.5.2 (linux64) logging started Fri Mar  2 12:47:38 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/moderate/weighting/wellformed_moderate_instance21_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 56 rows, 154 columns and 308 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+02]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 19315
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 151 columns, 303 nonzeros
+Variable types: 0 continuous, 151 integer (150 binary)
+
+Root relaxation: objective 1.399300e+04, 63 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 13993.0000    0    3 19315.0000 13993.0000  27.6%     -    0s
+H    0     0                    14013.000000 13993.0000  0.14%     -    0s
+H    0     0                    14006.000000 13993.0000  0.09%     -    0s
+     0     0 13993.0000    0    7 14006.0000 13993.0000  0.09%     -    0s
+H    0     0                    13998.000000 13993.0000  0.04%     -    0s
+     0     0 13993.0000    0    4 13998.0000 13993.0000  0.04%     -    0s
+     0     0 13993.0000    0    6 13998.0000 13993.0000  0.04%     -    0s
+     0     0 13993.0000    0    4 13998.0000 13993.0000  0.04%     -    0s
+     0     2 13993.0000    0    4 13998.0000 13993.0000  0.04%     -    0s
+*   95    43              52    13996.000000 13993.0000  0.02%   1.7    0s
+*  123     1              50    13993.000000 13993.0000  0.00%   1.7    0s
+
+Explored 124 nodes (313 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.399300000000e+04, best bound 1.399300000000e+04, gap 0.0%

@@ -1,0 +1,84 @@
+
+Log started (V12.6.3.0) Fri Mar  2 13:35:41 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpFKMJ7n.pyomo.lp' read.
+Read time = 0.00 sec. (0.02 ticks)
+
+Problem name         : /tmp/tmpFKMJ7n.pyomo.lp
+Objective sense      : Minimize
+Variables            :     307  [Nneg: 7,  Binary: 300]
+Objective nonzeros   :       6
+Linear constraints   :      62  [Less: 5,  Equal: 57]
+  Nonzeros           :     617
+  RHS nonzeros       :      51
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 32.00000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 198.0000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Found incumbent of value 152992.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 1 rows and 1 columns.
+Aggregator did 2 substitutions.
+Reduced MIP has 59 rows, 304 columns, and 612 nonzeros.
+Reduced MIP has 300 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.64 ticks)
+Probing fixed 0 vars, tightened 14 bounds.
+Probing time = 0.00 sec. (0.94 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 59 rows, 304 columns, and 612 nonzeros.
+Reduced MIP has 300 binaries, 4 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.42 ticks)
+Probing time = 0.00 sec. (0.42 ticks)
+Clique table members: 50.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       152992.0000        0.0000           100.00%
+      0     0    50200.5000    14   152992.0000    50200.5000       67   67.19%
+*     0+    0                        56393.0000    50200.5000            10.98%
+      0     0    50200.5000    18    56393.0000       Cuts: 7       81   10.98%
+      0     0    50200.5000    18    56393.0000       Cuts: 5       89   10.98%
+*     0+    0                        55948.0000    50200.5000            10.27%
+      0     2    50200.5000    15    55948.0000    50200.5000       89   10.27%
+Elapsed time = 0.03 sec. (19.58 ticks, tree = 0.01 MB, solutions = 3)
+*    40+   40                        55239.0000    50200.5000             9.12%
+*    40+   40                        53032.0000    50200.5000             5.34%
+*    70+   60                        50978.0000    50200.5000             1.53%
+*   120+  105                        50686.0000    50200.5000             0.96%
+*   220+  188                        50554.0000    50200.5000             0.70%
+*   253   206      integral     0    50512.0000    50200.5000      859    0.62%
+*   310+  243                        50452.0000    50200.5000             0.50%
+*   400+  297                        50415.0000    50200.5000             0.43%
+*   500+  347                        50391.0000    50200.5000             0.38%
+*   500+  343                        50350.0000    50200.5000             0.30%
+*   540+  353                        50240.0000    50200.5000             0.08%
+*  1148+  733                        50210.0000    50200.5000             0.02%
+*  1150     0      integral     0    50210.0000                   3507    0.00%
+
+Cover cuts applied:  52
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (19.60 ticks)
+Sequential b&c:
+  Real time             =    0.16 sec. (149.74 ticks)
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (169.35 ticks)
+
+Solution pool: 15 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  5.0210000000e+04
+Solution time =    0.19 sec.  Iterations = 3507  Nodes = 1150
+Deterministic time = 169.35 ticks  (914.08 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpRKfnRY.cplex.sol'.

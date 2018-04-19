@@ -1,0 +1,77 @@
+
+Gurobi 6.5.2 (linux64) logging started Sat Mar  3 09:29:45 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/intermediate/weighting/wellformed_intermediate_instance61_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 328 rows, 4215 columns and 8441 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+03]
+  Objective range [1e+00, 8e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.01s
+Presolved: 325 rows, 4212 columns, 8436 nonzeros
+Variable types: 0 continuous, 4212 integer (4200 binary)
+Found heuristic solution: objective 1.248625e+09
+
+Root relaxation: objective 1.783641e+08, 495 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.7836e+08    0   33 1.2486e+09 1.7836e+08  85.7%     -    0s
+H    0     0                    5.847501e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   49 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   42 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   46 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   49 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   48 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   44 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   31 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   39 5.8475e+08 1.7836e+08  69.5%     -    0s
+     0     0 1.7836e+08    0   34 5.8475e+08 1.7836e+08  69.5%     -    0s
+H    0     0                    1.966210e+08 1.7836e+08  9.29%     -    0s
+     0     2 1.7836e+08    0   32 1.9662e+08 1.7836e+08  9.29%     -    0s
+H   27    27                    1.938642e+08 1.7836e+08  8.00%  16.7    0s
+H  122   122                    1.870458e+08 1.7836e+08  4.64%   5.7    1s
+H  481   479                    1.870041e+08 1.7836e+08  4.62%   2.9    1s
+H  993   991                    1.869836e+08 1.7836e+08  4.61%   3.4    2s
+H 1228  1198                    1.869822e+08 1.7836e+08  4.61%   3.4    2s
+H 1240  1145                    1.855289e+08 1.7836e+08  3.86%   6.6    3s
+H 1267  1106                    1.855025e+08 1.7837e+08  3.84%   7.0    3s
+H 1895  1468                    1.848847e+08 1.7837e+08  3.52%   6.1    4s
+  2141  1634 1.7843e+08  465   18 1.8488e+08 1.7837e+08  3.52%   5.9    5s
+H 2357  1695                    1.848835e+08 1.7837e+08  3.52%   5.8    5s
+H 2910  1767                    1.818845e+08 1.7837e+08  1.93%   5.8    5s
+H 2980  1728                    1.818844e+08 1.7837e+08  1.93%   5.8    6s
+H 3639  2064                    1.818721e+08 1.7837e+08  1.92%   5.6    7s
+H 3968  2351                    1.818650e+08 1.7837e+08  1.92%   5.4    7s
+H 3973  2354                    1.818594e+08 1.7837e+08  1.92%   5.4    7s
+* 4534  2560             593    1.795481e+08 1.7837e+08  0.65%   5.5    8s
+H 4587  2577                    1.794979e+08 1.7837e+08  0.63%   5.5    8s
+  5843  3835 1.7862e+08  672   14 1.7950e+08 1.7837e+08  0.63%   5.4   10s
+H 5959  3938                    1.794591e+08 1.7837e+08  0.60%   5.4   10s
+H 6014  3793                    1.788888e+08 1.7837e+08  0.29%   5.4   10s
+ 13394 10896 1.7837e+08  365   16 1.7889e+08 1.7837e+08  0.29%   5.2   15s
+ 18527 15629 1.7843e+08  764   18 1.7889e+08 1.7837e+08  0.29%   5.3   20s
+H19109 10365                    1.784507e+08 1.7837e+08  0.04%   5.3   20s
+ 24684 15404 1.7837e+08  432   19 1.7845e+08 1.7837e+08  0.04%   5.3   25s
+ 33154 22841 1.7838e+08 1217   21 1.7845e+08 1.7837e+08  0.04%   5.3   30s
+ 41744 30634 1.7838e+08  708   21 1.7845e+08 1.7837e+08  0.04%   5.3   35s
+ 49532 36368 infeasible  956      1.7845e+08 1.7837e+08  0.04%   5.5   40s
+ 56043 38174 1.7837e+08  943    7 1.7845e+08 1.7837e+08  0.04%   5.9   45s
+ 62393 38211 infeasible  922      1.7845e+08 1.7837e+08  0.04%   6.2   50s
+ 67612 38282 1.7837e+08  927    8 1.7845e+08 1.7837e+08  0.04%   6.3   55s
+*74624     1             946    1.783740e+08 1.7837e+08  0.00%   6.5   59s
+
+Cutting planes:
+  Gomory: 1
+
+Explored 74625 nodes (484427 simplex iterations) in 59.86 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.783740090000e+08, best bound 1.783740090000e+08, gap 0.0%

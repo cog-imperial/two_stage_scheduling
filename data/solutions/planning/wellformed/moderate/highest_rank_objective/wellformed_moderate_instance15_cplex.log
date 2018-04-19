@@ -1,0 +1,80 @@
+Found incumbent of value 4254.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+Aggregator did 3 substitutions.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.30 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Cover probing fixed 0 vars, tightened 4 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.17 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+Clique table members: 40.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.17 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         4254.0000      198.0000            95.35%
+      0     0     1418.0000     4     4254.0000     1418.0000       24   66.67%
+*     0+    0                         1501.0000     1418.0000             5.53%
+      0     0     1418.0000     5     1501.0000       Cuts: 4       28    5.53%
+*     0+    0                         1428.0000     1418.0000             0.70%
+      0     0     1418.0000     8     1428.0000       Cuts: 4       32    0.70%
+*     0+    0                         1420.0000     1418.0000             0.14%
+      0     2     1418.0000     4     1420.0000     1418.0000       34    0.14%
+Elapsed time = 0.01 sec. (3.61 ticks, tree = 0.01 MB, solutions = 4)
+*    27     0      integral     0     1418.0000     1418.0000       82    0.00%
+
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (3.61 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (1.12 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (4.74 ticks)
+
+Populate: phase II 
+Tried aggregator 2 times.
+Aggregator did 3 substitutions.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.30 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Cover probing fixed 0 vars, tightened 4 bounds.
+Clique table members: 40.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.17 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1418.0000        0.0000           100.00%
+      0     0     1418.0000     4     1418.0000     1418.0000       24    0.00%
+      0     2     1418.0000     4     1418.0000     1418.0000       24    0.00%
+Elapsed time = 0.00 sec. (2.29 ticks, tree = 0.01 MB, solutions = 10)
+     27    29     1418.0000     3     1418.0000     1418.0000       63    0.00%
+     28    30     1418.0000     4     1418.0000     1418.0000       64    0.00%
+     29    31     1418.0000     4     1418.0000     1418.0000       66    0.00%
+     30    32     1418.0000     4     1418.0000     1418.0000       68    0.00%
+     31    33     1418.0000     4     1418.0000     1418.0000       72    0.00%
+     32    34     1418.0000     4     1418.0000     1418.0000       73    0.00%
+     33    35     1418.0000     4     1418.0000     1418.0000       74    0.00%
+     34    36     1418.0000     4     1418.0000     1418.0000       75    0.00%
+     35    37     1418.0000     4     1418.0000     1418.0000       76    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.14 sec. (3.99 ticks)
+Sequential b&c:
+  Real time             =    1.60 sec. (910.24 ticks)
+                          ------------
+Total (root+branch&cut) =    1.74 sec. (914.23 ticks)

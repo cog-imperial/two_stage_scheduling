@@ -1,0 +1,47 @@
+
+Gurobi 6.5.2 (linux64) logging started Sat Mar  3 19:47:35 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/hard/weighting/wellformed_hard_instance15_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 420 rows, 4011 columns and 8019 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+03]
+  Objective range [1e+00, 5e+02]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 6.50675e+07
+Presolve removed 4 rows and 13 columns
+Presolve time: 0.01s
+Presolved: 416 rows, 3998 columns, 8004 nonzeros
+Variable types: 0 continuous, 3998 integer (3990 binary)
+
+Root relaxation: objective 4.241634e+07, 536 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4.2416e+07    0   23 6.5068e+07 4.2416e+07  34.8%     -    0s
+H    0     0                    4.428799e+07 4.2416e+07  4.23%     -    0s
+H    0     0                    4.367342e+07 4.2416e+07  2.88%     -    0s
+     0     0 4.2416e+07    0   29 4.3673e+07 4.2416e+07  2.88%     -    0s
+H    0     0                    4.243032e+07 4.2416e+07  0.03%     -    0s
+     0     0 4.2416e+07    0   31 4.2430e+07 4.2416e+07  0.03%     -    0s
+     0     0 4.2416e+07    0   38 4.2430e+07 4.2416e+07  0.03%     -    0s
+     0     0 4.2416e+07    0   23 4.2430e+07 4.2416e+07  0.03%     -    0s
+     0     2 4.2416e+07    0   23 4.2430e+07 4.2416e+07  0.03%     -    0s
+H   27    27                    4.243028e+07 4.2416e+07  0.03%  16.7    0s
+H 1208  1090                    4.242952e+07 4.2417e+07  0.03%  15.1    3s
+  2153  1555 4.2417e+07  615   11 4.2430e+07 4.2417e+07  0.03%  10.2    5s
+H 2328  1563                    4.241865e+07 4.2417e+07  0.00%   9.6    5s
+
+Cutting planes:
+  MIR: 2
+  Flow cover: 1
+
+Explored 2328 nodes (24287 simplex iterations) in 5.27 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.241865200000e+07, best bound 4.241664200000e+07, gap 0.0047%

@@ -1,0 +1,48 @@
+
+Gurobi 6.5.2 (linux64) logging started Mon Mar  5 10:14:18 2018
+
+Changed value of parameter LogFile to data/solutions/planning/degenerate/moderate/weighting/degenerate_moderate_instance12_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 41 rows, 109 columns and 218 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 5e+08]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Warning: Model contains large matrix coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 3.32712e+10
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 38 rows, 106 columns, 213 nonzeros
+Variable types: 0 continuous, 106 integer (105 binary)
+
+Root relaxation: objective 2.257173e+10, 48 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2.2572e+10    0    4 3.3271e+10 2.2572e+10  32.2%     -    0s
+H    0     0                    2.315096e+10 2.2572e+10  2.50%     -    0s
+     0     0 2.2572e+10    0    6 2.3151e+10 2.2572e+10  2.50%     -    0s
+     0     0 2.2572e+10    0    8 2.3151e+10 2.2572e+10  2.50%     -    0s
+     0     0 2.2572e+10    0    6 2.3151e+10 2.2572e+10  2.50%     -    0s
+     0     2 2.2572e+10    0    6 2.3151e+10 2.2572e+10  2.50%     -    0s
+*   43    33              43    2.258793e+10 2.2572e+10  0.07%   1.7    0s
+*   45    33              44    2.258636e+10 2.2572e+10  0.06%   1.7    0s
+*   82    51              36    2.258030e+10 2.2572e+10  0.04%   1.6    0s
+*   91    57              44    2.257897e+10 2.2572e+10  0.03%   1.6    0s
+*  153    89              39    2.257284e+10 2.2572e+10  0.00%   1.5    0s
+
+Cutting planes:
+  Cover: 1
+  GUB cover: 2
+
+Explored 154 nodes (294 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.257284105000e+10, best bound 2.257173264500e+10, gap 0.0049%

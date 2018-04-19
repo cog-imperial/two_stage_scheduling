@@ -1,0 +1,2178 @@
+wellformed_moderate_instance1
+Incumbents:
+[341, 341, 339] 0.0021870136261
+[341, 340, 340] 0.00462579727173
+Elapsed time: 0.00464582443237
+Termination condition: Enough tolerance
+Nodes explored: 127
+Nodes left: 15
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 33
+Nodes pruned via bounding lower than makespan objectives: 171
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance2
+Incumbents:
+[777, 762, 705] 0.000734806060791
+[774, 758, 712] 0.000792980194092
+[770, 753, 721] 0.00126600265503
+[756, 749, 739] 0.00137591362
+[752, 749, 743] 0.00152397155762
+[751, 749, 744] 0.00159978866577
+[749, 749, 746] 0.0080418586731
+[749, 748, 747] 0.0102479457855
+[748, 748, 748] 0.29162979126
+Elapsed time: 0.2916867733
+Termination condition: Enough tolerance
+Nodes explored: 15658
+Nodes left: 16
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 33954
+Nodes pruned via bounding lower than makespan objectives: 270
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance3
+Incumbents:
+[670, 669, 668] 0.000469923019409
+[669, 669, 669] 0.000529050827026
+Elapsed time: 0.000587940216064
+Termination condition: Enough tolerance
+Nodes explored: 7
+Nodes left: 2
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance4
+Incumbents:
+[3678, 3663, 3579] 0.000455141067505
+[3672, 3662, 3586] 0.000705003738403
+[3671, 3663, 3586] 0.000815153121948
+[3665, 3649, 3606] 0.000885009765625
+[3665, 3642, 3613] 0.00092601776123
+[3657, 3636, 3627] 0.00151205062866
+[3654, 3636, 3630] 0.00434803962708
+[3643, 3641, 3636] 0.00764393806458
+[3642, 3642, 3636] 0.0506980419159
+[3642, 3641, 3637] 0.200259923935
+[3641, 3640, 3639] 0.223278045654
+[3640, 3640, 3640] 0.802487134933
+Elapsed time: 0.802515029907
+Termination condition: Enough tolerance
+Nodes explored: 41161
+Nodes left: 15
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 5*10^6
+Nodes pruned via bounding lower than makespan objectives: 219
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance5
+Incumbents:
+[6934, 6771, 6473] 0.000423908233643
+[6934, 6768, 6476] 0.000702857971191
+[6930, 6791, 6457] 0.000844955444336
+[6924, 6791, 6463] 0.000952005386353
+[6905, 6791, 6482] 0.000993013381958
+[6836, 6763, 6579] 0.00106191635132
+[6836, 6760, 6582] 0.00110197067261
+[6766, 6747, 6665] 0.00127983093262
+[6759, 6754, 6665] 0.00538086891174
+[6757, 6756, 6665] 0.026428937912
+[6746, 6723, 6709] 0.101538896561
+[6738, 6731, 6709] 0.103459835052
+[6728, 6727, 6723] 0.199735879898
+[6727, 6726, 6725] 0.970752954483
+Elapsed time: 0.970808029175
+Termination condition: Enough tolerance
+Nodes explored: 48493
+Nodes left: 19
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 3*10^6
+Nodes pruned via bounding lower than makespan objectives: 18
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance6
+Incumbents:
+[6438, 6426, 6425] 0.000463008880615
+[6432, 6432, 6425] 0.000642061233521
+[6432, 6429, 6428] 0.0015389919281
+[6431, 6430, 6428] 0.002032995224
+Elapsed time: 0.00205492973328
+Termination condition: Enough tolerance
+Nodes explored: 76
+Nodes left: 13
+Nodes pruned via symmetry handling: 1*10^10
+Nodes pruned via bounding: 89079
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 3*10^10
+
+wellformed_moderate_instance7
+Incumbents:
+[544, 543, 541] 0.000433206558228
+[544, 542, 542] 0.00105500221252
+[543, 543, 542] 0.0011830329895
+Elapsed time: 0.00120401382446
+Termination condition: Enough tolerance
+Nodes explored: 22
+Nodes left: 12
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance8
+Incumbents:
+[1043, 1041, 1039] 0.000422954559326
+[1043, 1040, 1040] 4.56081008911
+[1042, 1042, 1039] 4.5983171463
+[1042, 1041, 1040] 4.59883117676
+[1041, 1041, 1041] 346.110732079
+Elapsed time: 346.110785007
+Termination condition: Enough tolerance
+Nodes explored: 10122499
+Nodes left: 24
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 1*10^9
+Nodes pruned via bounding lower than makespan objectives: 1*10^7
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance9
+Incumbents:
+[1079, 1077, 1076] 0.00190401077271
+[1078, 1077, 1077] 0.0022029876709
+Elapsed time: 0.00239992141724
+Termination condition: Enough tolerance
+Nodes explored: 10
+Nodes left: 4
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance10
+Incumbents:
+[5183, 5166, 5146] 0.000571012496948
+[5179, 5176, 5140] 0.000688076019287
+[5176, 5173, 5146] 0.0019199848175
+[5176, 5161, 5158] 0.00209093093872
+[5168, 5165, 5162] 0.00246095657349
+[5167, 5165, 5163] 0.00514912605286
+[5165, 5165, 5165] 0.0198240280151
+Elapsed time: 0.0198619365692
+Termination condition: Enough tolerance
+Nodes explored: 430
+Nodes left: 20
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 1*10^8
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance11
+Incumbents:
+[10705, 10668, 10461] 0.000566005706787
+[10703, 10669, 10462] 0.000866889953613
+[10702, 10670, 10462] 0.00112700462341
+[10699, 10672, 10463] 0.00154280662537
+[10685, 10680, 10469] 0.00179600715637
+[10684, 10681, 10469] 0.00189399719238
+[10640, 10600, 10594] 0.00205683708191
+[10633, 10621, 10580] 10.0076048374
+[10633, 10609, 10592] 10.0270829201
+[10633, 10605, 10596] 10.0292599201
+[10633, 10602, 10599] 10.031899929
+[10633, 10601, 10600] 10.0692079067
+[10621, 10619, 10594] 14.8977928162
+[10619, 10609, 10606] 14.9170129299
+[10619, 10608, 10607] 15.0340158939
+[10612, 10612, 10610] 18.5006978512
+Elapsed time: 18.500743866
+Termination condition: Enough tolerance
+Nodes explored: 517891
+Nodes left: 25
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 1*10^7
+Nodes pruned via bounding lower than makespan objectives: 2637
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance12
+Incumbents:
+[9298, 9279, 9253] 0.000965118408203
+[9292, 9269, 9269] 0.00108599662781
+[9284, 9278, 9268] 0.00127506256104
+[9279, 9279, 9272] 0.00241494178772
+[9278, 9278, 9274] 0.0917150974274
+Elapsed time: 0.0917661190033
+Termination condition: Enough tolerance
+Nodes explored: 2248
+Nodes left: 20
+Nodes pruned via symmetry handling: 8*10^14
+Nodes pruned via bounding: 2*10^9
+Nodes pruned via bounding lower than makespan objectives: 6
+Remaining nodes: 2*10^15
+
+wellformed_moderate_instance13
+Incumbents:
+[755, 749, 748] 0.000504970550537
+[752, 751, 749] 0.00218296051025
+[751, 751, 750] 0.00275111198425
+Elapsed time: 0.00279498100281
+Termination condition: Enough tolerance
+Nodes explored: 28
+Nodes left: 16
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance14
+Incumbents:
+[1368, 1367, 1360] 0.000482082366943
+[1367, 1366, 1362] 0.000615119934082
+Elapsed time: 1000.00000501
+Termination condition: Timeout
+Nodes explored: 28312504
+Nodes left: 33
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 1*10^10
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance15
+Incumbents:
+[1423, 1417, 1414] 0.00419116020203
+[1422, 1418, 1414] 0.00501298904419
+[1420, 1418, 1416] 0.00519204139709
+[1419, 1418, 1417] 0.00547313690186
+[1418, 1418, 1418] 0.00621700286865
+Elapsed time: 0.00624299049377
+Termination condition: Enough tolerance
+Nodes explored: 46
+Nodes left: 22
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance16
+Incumbents:
+[6003, 5986, 5973] 0.000617980957031
+[5999, 5990, 5973] 0.000693798065186
+[5998, 5987, 5977] 0.000952005386353
+[5994, 5988, 5980] 0.00133180618286
+[5993, 5989, 5980] 0.00147581100464
+[5993, 5988, 5981] 0.00152993202209
+[5992, 5990, 5980] 0.00204491615295
+[5990, 5989, 5983] 0.00214385986328
+[5990, 5986, 5986] 0.00237584114075
+[5989, 5987, 5986] 0.00256299972534
+Elapsed time: 0.00258684158325
+Termination condition: Enough tolerance
+Nodes explored: 52
+Nodes left: 25
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance17
+Incumbents:
+[13613, 13187, 13182] 0.000893831253052
+[13542, 13277, 13163] 0.000970840454102
+[13491, 13462, 13029] 0.00192785263062
+[13491, 13444, 13047] 0.00199890136719
+[13481, 13453, 13048] 0.00210785865784
+[13470, 13460, 13052] 0.00216484069824
+[13397, 13361, 13224] 0.00226187705994
+[13336, 13331, 13315] 0.00240898132324
+Elapsed time: 1000.00002098
+Termination condition: Timeout
+Nodes explored: 37606801
+Nodes left: 33
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 8*10^9
+Nodes pruned via bounding lower than makespan objectives: 2*10^7
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance18
+Incumbents:
+[14530, 14507, 14484] 0.00169682502747
+[14530, 14506, 14485] 0.00206089019775
+[14520, 14506, 14495] 0.00286388397217
+[14518, 14508, 14495] 0.00298094749451
+[14507, 14507, 14507] 0.00702095031738
+Elapsed time: 0.00707197189331
+Termination condition: Enough tolerance
+Nodes explored: 76
+Nodes left: 27
+Nodes pruned via symmetry handling: 4*10^19
+Nodes pruned via bounding: 2*10^10
+Nodes pruned via bounding lower than makespan objectives: 7*10^7
+Remaining nodes: 1*10^20
+
+wellformed_moderate_instance19
+Incumbents:
+[795, 795, 794] 0.000545978546143
+Elapsed time: 0.000622987747192
+Termination condition: Enough tolerance
+Nodes explored: 4
+Nodes left: 1
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 8*10^24
+
+wellformed_moderate_instance20
+Incumbents:
+[1743, 1737, 1704] 0.000543117523193
+[1740, 1739, 1705] 0.00224494934082
+[1730, 1728, 1726] 0.00259709358215
+Elapsed time: 1000.00001812
+Termination condition: Timeout
+Nodes explored: 37782379
+Nodes left: 41
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 4*10^10
+Nodes pruned via bounding lower than makespan objectives: 7*10^9
+Remaining nodes: 7*10^24
+
+wellformed_moderate_instance21
+Incumbents:
+[2001, 1999, 1997] 0.00147199630737
+[2000, 1999, 1998] 0.00156807899475
+[1999, 1999, 1999] 0.00299501419067
+Elapsed time: 0.00302004814148
+Termination condition: Enough tolerance
+Nodes explored: 31
+Nodes left: 18
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 7*10^24
+
+wellformed_moderate_instance22
+Incumbents:
+[8368, 8356, 8354] 0.000445127487183
+[8366, 8357, 8355] 0.000667095184326
+[8366, 8356, 8356] 0.00113296508789
+[8365, 8357, 8356] 0.00153398513794
+[8362, 8359, 8357] 0.0025520324707
+[8362, 8358, 8358] 0.0166659355164
+Elapsed time: 0.0166969299316
+Termination condition: Enough tolerance
+Nodes explored: 772
+Nodes left: 34
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 126
+Nodes pruned via bounding lower than makespan objectives: 3
+Remaining nodes: 7*10^24
+
+wellformed_moderate_instance23
+Incumbents:
+[15937, 15914, 15703] 0.000508069992065
+[15933, 15901, 15720] 0.00180816650391
+[15875, 15851, 15828] 0.00198912620544
+[15874, 15850, 15830] 0.00205397605896
+Elapsed time: 1000.00006294
+Termination condition: Timeout
+Nodes explored: 39206974
+Nodes left: 39
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 1*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^9
+Remaining nodes: 7*10^24
+
+wellformed_moderate_instance24
+Incumbents:
+[16618, 16615, 16605] 0.00144290924072
+[16617, 16614, 16607] 0.00165295600891
+[16616, 16614, 16608] 0.00209593772888
+Elapsed time: 0.00211787223816
+Termination condition: Enough tolerance
+Nodes explored: 16
+Nodes left: 8
+Nodes pruned via symmetry handling: 2*10^24
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 7*10^24
+
+wellformed_moderate_instance25
+Incumbents:
+[218, 218, 218, 214] 0.000401020050049
+[218, 218, 217, 215] 0.000717878341675
+[218, 217, 217, 216] 0.000897884368896
+[217, 217, 217, 217] 0.0248038768768
+Elapsed time: 0.0248708724976
+Termination condition: Enough tolerance
+Nodes explored: 1097
+Nodes left: 20
+Nodes pruned via symmetry handling: 3*10^12
+Nodes pruned via bounding: 5*10^6
+Nodes pruned via bounding lower than makespan objectives: 16408
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance26
+Incumbents:
+[488, 488, 487, 487] 0.000469923019409
+Elapsed time: 0.000514984130859
+Termination condition: Enough tolerance
+Nodes explored: 5
+Nodes left: 1
+Nodes pruned via symmetry handling: 2*10^12
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance27
+Incumbents:
+[403, 399, 397, 396] 0.000465869903564
+[400, 399, 398, 398] 0.000539064407349
+[399, 399, 399, 398] 0.0205688476562
+Elapsed time: 0.0205988883972
+Termination condition: Enough tolerance
+Nodes explored: 853
+Nodes left: 17
+Nodes pruned via symmetry handling: 3*10^12
+Nodes pruned via bounding: 1*10^8
+Nodes pruned via bounding lower than makespan objectives: 5516
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance28
+Incumbents:
+[2520, 2504, 2488, 2478] 0.000555992126465
+[2519, 2501, 2493, 2477] 0.00080394744873
+[2509, 2498, 2493, 2490] 0.000905990600586
+[2507, 2502, 2499, 2482] 0.00518202781677
+[2502, 2500, 2499, 2489] 0.0162329673767
+[2502, 2498, 2496, 2494] 0.174368858337
+[2502, 2496, 2496, 2496] 0.175019025803
+[2501, 2499, 2496, 2494] 1.40251588821
+[2501, 2497, 2496, 2496] 1.42337584496
+[2499, 2498, 2498, 2495] 1.69505500793
+[2499, 2498, 2497, 2496] 1.69522881508
+[2498, 2498, 2498, 2496] 88.8186309338
+Elapsed time: 88.8187060356
+Termination condition: Enough tolerance
+Nodes explored: 3471641
+Nodes left: 20
+Nodes pruned via symmetry handling: 3*10^12
+Nodes pruned via bounding: 5*10^10
+Nodes pruned via bounding lower than makespan objectives: 1*10^7
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance29
+Incumbents:
+[4713, 4613, 4550, 4393] 0.00146508216858
+[4712, 4606, 4571, 4380] 0.00197100639343
+[4711, 4606, 4572, 4380] 0.00201797485352
+[4701, 4607, 4581, 4380] 0.0021550655365
+[4687, 4647, 4484, 4451] 0.00228404998779
+[4663, 4642, 4485, 4479] 0.00233602523804
+[4662, 4642, 4486, 4479] 0.00238108634949
+[4662, 4575, 4516, 4516] 0.00255918502808
+[4642, 4618, 4507, 4502] 0.00274920463562
+[4642, 4617, 4508, 4502] 0.00497817993164
+[4642, 4604, 4537, 4486] 0.00584006309509
+[4642, 4604, 4515, 4508] 0.00643110275269
+[4642, 4603, 4537, 4487] 0.0289950370789
+[4642, 4603, 4515, 4509] 0.029865026474
+[4638, 4617, 4584, 4430] 0.0336060523987
+[4626, 4617, 4596, 4430] 0.0336520671844
+[4624, 4612, 4603, 4430] 0.0338370800018
+[4617, 4612, 4610, 4430] 0.0473330020905
+[4616, 4612, 4611, 4430] 0.107720136642
+[4615, 4615, 4609, 4430] 0.238767147064
+[4596, 4575, 4567, 4531] 0.477079153061
+[4596, 4568, 4567, 4538] 0.480600118637
+[4596, 4567, 4567, 4539] 0.486512184143
+[4576, 4570, 4566, 4557] 0.520856142044
+[4576, 4566, 4566, 4561] 0.521834135056
+[4573, 4572, 4563, 4561] 4.32038903236
+[4573, 4570, 4565, 4561] 4.37861800194
+[4572, 4571, 4566, 4560] 5.29467821121
+[4571, 4571, 4566, 4561] 6.1883649826
+[4570, 4568, 4567, 4564] 6.89030098915
+[4570, 4567, 4566, 4566] 29.316794157
+[4569, 4568, 4568, 4564] 47.9343831539
+[4569, 4568, 4566, 4566] 48.8774571419
+[4568, 4568, 4567, 4566] 48.9806170464
+Elapsed time: 48.9806451797
+Termination condition: Enough tolerance
+Nodes explored: 1859321
+Nodes left: 11
+Nodes pruned via symmetry handling: 3*10^12
+Nodes pruned via bounding: 6*10^10
+Nodes pruned via bounding lower than makespan objectives: 4*10^7
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance30
+Incumbents:
+[5795, 5653, 5609, 5559] 0.000913143157959
+[5683, 5663, 5662, 5608] 0.000992059707642
+[5682, 5668, 5646, 5620] 0.0235950946808
+[5676, 5674, 5646, 5620] 0.0475571155548
+[5664, 5659, 5647, 5646] 0.0801379680634
+[5659, 5658, 5653, 5646] 0.105881929398
+[5657, 5654, 5654, 5651] 0.343219041824
+[5656, 5654, 5654, 5652] 0.344397068024
+[5655, 5655, 5654, 5652] 0.353610992432
+[5655, 5654, 5654, 5653] 0.748216152191
+Elapsed time: 0.748245954514
+Termination condition: Enough tolerance
+Nodes explored: 30873
+Nodes left: 18
+Nodes pruned via symmetry handling: 3*10^12
+Nodes pruned via bounding: 1*10^9
+Nodes pruned via bounding lower than makespan objectives: 1872
+Remaining nodes: 1*10^13
+
+wellformed_moderate_instance31
+Incumbents:
+[290, 290, 290, 289] 0.000434875488281
+Elapsed time: 0.00048303604126
+Termination condition: Enough tolerance
+Nodes explored: 5
+Nodes left: 1
+Nodes pruned via symmetry handling: 2*10^18
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance32
+Incumbents:
+[806, 806, 761, 761] 0.000424146652222
+[803, 803, 771, 757] 0.000507116317749
+[803, 803, 770, 758] 0.00063419342041
+[798, 797, 782, 757] 0.00158715248108
+[795, 795, 782, 762] 0.00164914131165
+[788, 786, 782, 778] 0.00314211845398
+[788, 784, 784, 778] 0.00570011138916
+[787, 786, 783, 778] 5.72565102577
+[787, 785, 784, 778] 5.72804117203
+[786, 786, 784, 778] 8.56780314445
+[786, 785, 785, 778] 8.57197213173
+Elapsed time: 1000.00005007
+Termination condition: Timeout
+Nodes explored: 47462469
+Nodes left: 38
+Nodes pruned via symmetry handling: 3*10^18
+Nodes pruned via bounding: 2*10^10
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance33
+Incumbents:
+[760, 758, 758, 757] 0.00138711929321
+[759, 759, 758, 757] 0.00181102752686
+[759, 758, 758, 758] 0.00962805747986
+Elapsed time: 0.00966310501099
+Termination condition: Enough tolerance
+Nodes explored: 329
+Nodes left: 32
+Nodes pruned via symmetry handling: 3*10^18
+Nodes pruned via bounding: 61232
+Nodes pruned via bounding lower than makespan objectives: 340
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance34
+Incumbents:
+[3927, 3911, 3904, 3881] 0.000422954559326
+[3914, 3907, 3902, 3900] 0.000508069992065
+[3914, 3904, 3903, 3902] 0.00290894508362
+[3914, 3903, 3903, 3903] 0.0078239440918
+[3913, 3908, 3902, 3900] 0.0137369632721
+[3912, 3909, 3902, 3900] 0.0204601287842
+[3910, 3908, 3905, 3900] 0.0456030368805
+[3909, 3908, 3906, 3900] 0.0639309883118
+[3907, 3907, 3906, 3903] 0.191221952438
+[3907, 3906, 3906, 3904] 0.494281053543
+[3907, 3906, 3905, 3905] 3.86881995201
+[3906, 3906, 3906, 3905] 60.1875030994
+Elapsed time: 60.1875391006
+Termination condition: Enough tolerance
+Nodes explored: 2316893
+Nodes left: 31
+Nodes pruned via symmetry handling: 3*10^18
+Nodes pruned via bounding: 2*10^12
+Nodes pruned via bounding lower than makespan objectives: 1*10^7
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance35
+Incumbents:
+[7347, 7218, 7029, 6828] 0.00144791603088
+[7308, 7300, 6963, 6851] 0.00153493881226
+[7280, 7104, 7100, 6938] 0.00264382362366
+[7236, 7183, 7104, 6899] 0.00272679328918
+[7236, 7104, 7080, 7002] 0.00414991378784
+[7144, 7104, 7094, 7080] 0.00425791740417
+[7138, 7104, 7092, 7088] 0.00753092765808
+[7128, 7104, 7102, 7088] 0.0121779441833
+[7124, 7106, 7104, 7088] 0.0168437957764
+[7123, 7107, 7104, 7088] 0.0257840156555
+[7122, 7108, 7104, 7088] 0.0303599834442
+[7119, 7111, 7104, 7088] 0.0307879447937
+[7117, 7113, 7104, 7088] 0.0509819984436
+[7116, 7114, 7104, 7088] 0.0585370063782
+[7115, 7115, 7104, 7088] 0.19727396965
+[7111, 7104, 7104, 7103] 1.46375489235
+[7108, 7107, 7104, 7103] 1.46453285217
+[7107, 7107, 7104, 7104] 1.62393689156
+Elapsed time: 1.62397098541
+Termination condition: Enough tolerance
+Nodes explored: 92941
+Nodes left: 39
+Nodes pruned via symmetry handling: 3*10^18
+Nodes pruned via bounding: 19160
+Nodes pruned via bounding lower than makespan objectives: 136
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance36
+Incumbents:
+[6270, 6261, 6249, 6242] 0.000521898269653
+[6265, 6254, 6253, 6250] 0.000607967376709
+[6265, 6253, 6253, 6251] 0.000946998596191
+[6261, 6260, 6260, 6241] 0.0012059211731
+[6258, 6258, 6257, 6249] 0.00799989700317
+[6258, 6257, 6255, 6252] 0.00893998146057
+[6257, 6257, 6256, 6252] 0.00947904586792
+[6257, 6257, 6255, 6253] 0.307929992676
+[6257, 6257, 6254, 6254] 0.391060113907
+Elapsed time: 0.39112496376
+Termination condition: Enough tolerance
+Nodes explored: 14945
+Nodes left: 28
+Nodes pruned via symmetry handling: 3*10^18
+Nodes pruned via bounding: 1*10^12
+Nodes pruned via bounding lower than makespan objectives: 236
+Remaining nodes: 1*10^19
+
+wellformed_moderate_instance37
+Incumbents:
+[519, 517, 513, 512] 0.000456094741821
+[518, 517, 514, 512] 0.000555038452148
+[518, 515, 514, 514] 0.00176787376404
+[516, 515, 515, 515] 0.00200796127319
+Elapsed time: 0.00203800201416
+Termination condition: Enough tolerance
+Nodes explored: 33
+Nodes left: 19
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance38
+Incumbents:
+[902, 896, 891, 890] 0.000420093536377
+[897, 895, 895, 892] 0.000516891479492
+[896, 896, 896, 891] 0.00173497200012
+[896, 896, 895, 892] 0.00180506706238
+[896, 895, 895, 893] 0.0103690624237
+[896, 895, 894, 894] 188.47393012
+Elapsed time: 1000.00019097
+Termination condition: Timeout
+Nodes explored: 41195633
+Nodes left: 50
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 3*10^11
+Nodes pruned via bounding lower than makespan objectives: 2*10^10
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance39
+Incumbents:
+[1118, 1113, 1110, 1109] 0.00148701667786
+[1118, 1112, 1111, 1109] 0.00171804428101
+[1117, 1113, 1111, 1109] 0.00388216972351
+[1116, 1115, 1110, 1109] 0.00472211837769
+[1116, 1114, 1111, 1109] 0.00549411773682
+[1116, 1113, 1112, 1109] 0.00589609146118
+[1114, 1114, 1112, 1110] 0.00626707077026
+[1114, 1114, 1111, 1111] 0.00718808174133
+[1114, 1113, 1112, 1111] 0.0108060836792
+[1114, 1112, 1112, 1112] 0.455754041672
+[1113, 1113, 1112, 1112] 0.469450950623
+Elapsed time: 0.469681978226
+Termination condition: Enough tolerance
+Nodes explored: 10421
+Nodes left: 39
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 1*10^13
+Nodes pruned via bounding lower than makespan objectives: 1*10^6
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance40
+Incumbents:
+[4914, 4893, 4854, 4840] 0.000468015670776
+[4913, 4897, 4851, 4840] 0.00177001953125
+[4912, 4897, 4852, 4840] 0.0018949508667
+[4911, 4897, 4851, 4842] 0.00226306915283
+[4910, 4897, 4852, 4842] 0.00238800048828
+[4895, 4892, 4882, 4832] 0.0031111240387
+[4885, 4882, 4867, 4867] 0.00358891487122
+[4885, 4881, 4868, 4867] 0.00411105155945
+[4881, 4878, 4871, 4871] 0.00631308555603
+[4880, 4877, 4872, 4872] 3.1045820713
+[4879, 4878, 4872, 4872] 3.11312413216
+[4879, 4876, 4874, 4872] 3.11360311508
+[4878, 4877, 4874, 4872] 3.11557412148
+[4878, 4877, 4873, 4873] 3.13780903816
+[4877, 4877, 4874, 4873] 3.17150902748
+[4877, 4876, 4875, 4873] 3.28718304634
+[4877, 4875, 4875, 4874] 3.61172199249
+Elapsed time: 3.6117579937
+Termination condition: Enough tolerance
+Nodes explored: 113565
+Nodes left: 41
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 6*10^12
+Nodes pruned via bounding lower than makespan objectives: 1*10^7
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance41
+Incumbents:
+[9151, 9146, 9044, 8729] 0.000829935073853
+[9151, 9144, 9045, 8730] 0.0024299621582
+[9150, 9150, 9041, 8729] 0.00281500816345
+[9085, 9050, 8980, 8955] 0.00404691696167
+[9072, 9056, 8997, 8945] 0.00453591346741
+[9066, 9060, 8997, 8947] 0.00468897819519
+[9051, 9021, 9001, 8997] 0.0111420154572
+[9051, 9021, 9000, 8998] 0.0134010314941
+[9029, 9021, 9017, 9003] 0.0229749679565
+[9023, 9021, 9017, 9009] 0.0242440700531
+[9023, 9021, 9013, 9013] 0.0354330539703
+[9023, 9019, 9014, 9014] 181.697955132
+[9023, 9018, 9017, 9012] 186.81932807
+Elapsed time: 1000.00001693
+Termination condition: Timeout
+Nodes explored: 42817881
+Nodes left: 50
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 2*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^8
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance42
+Incumbents:
+[10164, 10138, 10122, 10115] 0.0015070438385
+[10153, 10148, 10133, 10105] 0.00160598754883
+[10141, 10134, 10133, 10131] 0.00257706642151
+[10140, 10138, 10132, 10129] 0.00304317474365
+[10140, 10136, 10135, 10128] 0.0031111240387
+[10140, 10135, 10135, 10129] 0.00329399108887
+[10139, 10137, 10132, 10131] 0.00634813308716
+[10139, 10134, 10134, 10132] 0.0136301517487
+[10139, 10134, 10133, 10133] 0.0241169929504
+[10138, 10137, 10132, 10132] 3.63111519814
+[10138, 10135, 10134, 10132] 3.94345998764
+[10137, 10135, 10135, 10132] 3.94559812546
+Elapsed time: 3.94571614265
+Termination condition: Enough tolerance
+Nodes explored: 136265
+Nodes left: 38
+Nodes pruned via symmetry handling: 3*10^24
+Nodes pruned via bounding: 2*10^11
+Nodes pruned via bounding lower than makespan objectives: 7*10^6
+Remaining nodes: 1*10^25
+
+wellformed_moderate_instance43
+Incumbents:
+[734, 731, 723, 723] 0.000802040100098
+[734, 730, 724, 723] 0.00129008293152
+[733, 730, 725, 723] 0.00232791900635
+[732, 731, 728, 720] 0.00260496139526
+[729, 729, 728, 725] 0.00314903259277
+[729, 728, 727, 727] 0.0044641494751
+[728, 728, 728, 727] 0.00810313224792
+Elapsed time: 0.00813102722168
+Termination condition: Enough tolerance
+Nodes explored: 189
+Nodes left: 56
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 7*10^6
+Nodes pruned via bounding lower than makespan objectives: 360
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance44
+Incumbents:
+[1162, 1159, 1156, 1147] 0.000458955764771
+[1159, 1158, 1158, 1149] 0.00353407859802
+[1159, 1156, 1155, 1154] 0.00667905807495
+[1158, 1156, 1156, 1154] 0.0155041217804
+[1157, 1157, 1156, 1154] 0.018306016922
+Elapsed time: 1000.00001097
+Termination condition: Timeout
+Nodes explored: 48446153
+Nodes left: 63
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 2*10^10
+Nodes pruned via bounding lower than makespan objectives: 1*10^7
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance45
+Incumbents:
+[1018, 1016, 1016, 1015] 0.00190901756287
+[1017, 1016, 1016, 1016] 0.00241589546204
+Elapsed time: 0.00253510475159
+Termination condition: Enough tolerance
+Nodes explored: 13
+Nodes left: 4
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance46
+Incumbents:
+[5458, 5452, 5448, 5439] 0.000552892684937
+[5456, 5452, 5445, 5444] 0.00225400924683
+[5455, 5452, 5446, 5444] 0.00233292579651
+[5453, 5453, 5448, 5443] 0.00252890586853
+[5453, 5449, 5448, 5447] 0.00458002090454
+[5452, 5452, 5449, 5444] 0.00515103340149
+[5451, 5449, 5449, 5448] 0.00746202468872
+Elapsed time: 0.00748801231384
+Termination condition: Enough tolerance
+Nodes explored: 193
+Nodes left: 50
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance47
+Incumbents:
+[12263, 12239, 12084, 12035] 0.000648021697998
+[12251, 12246, 12070, 12054] 0.000756025314331
+[12203, 12162, 12141, 12115] 0.00281810760498
+[12196, 12166, 12141, 12118] 0.00289702415466
+Elapsed time: 1000.00001812
+Termination condition: Timeout
+Nodes explored: 34930877
+Nodes left: 60
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 3*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^8
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance48
+Incumbents:
+[12143, 12129, 12119, 12116] 0.000797033309937
+[12142, 12130, 12121, 12114] 0.00209808349609
+[12132, 12129, 12123, 12123] 0.00256299972534
+[12130, 12129, 12127, 12121] 0.00264096260071
+[12130, 12129, 12126, 12122] 0.00271010398865
+[12130, 12128, 12127, 12122] 0.0118350982666
+[12129, 12128, 12128, 12122] 0.0156910419464
+Elapsed time: 0.0157189369202
+Termination condition: Enough tolerance
+Nodes explored: 565
+Nodes left: 44
+Nodes pruned via symmetry handling: 3*10^30
+Nodes pruned via bounding: 2*10^16
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 1*10^31
+
+wellformed_moderate_instance49
+Incumbents:
+[203, 197, 195, 189, 189] 0.000453948974609
+[202, 199, 193, 192, 187] 0.000684976577759
+[199, 196, 195, 193, 190] 0.000745058059692
+[198, 198, 196, 193, 188] 0.00230503082275
+[196, 196, 195, 193, 193] 0.00252890586853
+[196, 195, 195, 194, 193] 0.00325393676758
+[196, 195, 194, 194, 194] 0.042876958847
+[195, 195, 195, 195, 193] 0.136420965195
+[195, 195, 195, 194, 194] 0.383748054504
+Elapsed time: 0.383792877197
+Termination condition: Enough tolerance
+Nodes explored: 14961
+Nodes left: 26
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 6*10^9
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance50
+Incumbents:
+[413, 412, 411, 399, 385] 0.00041389465332
+[411, 406, 405, 402, 396] 0.000838994979858
+[410, 409, 409, 409, 383] 0.0103058815002
+[410, 409, 407, 406, 388] 3.17357778549
+[409, 408, 406, 405, 392] 3.19510483742
+[409, 407, 406, 406, 392] 3.19532990456
+[409, 406, 406, 402, 397] 3.19795179367
+[408, 407, 406, 402, 397] 3.22168779373
+[407, 406, 406, 404, 397] 3.22200298309
+[406, 406, 406, 405, 397] 3.30291795731
+[406, 406, 406, 402, 400] 3.40974783897
+[406, 406, 404, 402, 402] 3.40986800194
+[406, 405, 405, 402, 402] 4.05331397057
+[406, 405, 404, 403, 402] 4.83476901054
+[406, 404, 404, 404, 402] 8.35424399376
+[406, 404, 404, 403, 403] 14.5780079365
+[405, 405, 404, 404, 402] 36.2754259109
+[405, 405, 404, 403, 403] 61.0942158699
+[405, 404, 404, 404, 403] 272.818853855
+Elapsed time: 1000.00014186
+Termination condition: Timeout
+Nodes explored: 29734736
+Nodes left: 22
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 1*10^12
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance51
+Incumbents:
+[528, 519, 519, 464, 458] 0.00205183029175
+[523, 516, 513, 469, 467] 0.00217700004578
+[522, 521, 521, 465, 459] 0.00964784622192
+[522, 521, 518, 466, 461] 0.0188369750977
+[521, 520, 516, 466, 465] 0.0287518501282
+[521, 519, 516, 466, 466] 0.0297198295593
+[520, 519, 518, 466, 465] 0.0313119888306
+[519, 519, 518, 466, 466] 0.0323419570923
+[519, 518, 518, 467, 466] 0.0431818962097
+[518, 518, 514, 470, 468] 0.0605440139771
+[516, 515, 514, 475, 468] 0.0928230285645
+[516, 514, 514, 475, 469] 0.128572940826
+[516, 514, 514, 474, 470] 0.165048837662
+[515, 514, 511, 477, 471] 0.200682878494
+[514, 514, 511, 477, 472] 0.258832931519
+[514, 514, 511, 476, 473] 0.316881895065
+[514, 509, 508, 480, 477] 0.374637842178
+[513, 512, 511, 477, 475] 0.401539802551
+[512, 511, 511, 477, 477] 0.42067694664
+[511, 511, 509, 480, 477] 0.431793928146
+[511, 511, 509, 479, 478] 0.49803185463
+Elapsed time: 0.574762821198
+Termination condition: Completed tree exploration
+Nodes explored: 12206
+Nodes left: 0
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 5*10^12
+Nodes pruned via bounding lower than makespan objectives: 1*10^8
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance52
+Incumbents:
+[2534, 2473, 2422, 2381, 2381] 0.000556945800781
+[2520, 2443, 2417, 2410, 2401] 0.000673055648804
+[2500, 2483, 2433, 2407, 2368] 0.00231599807739
+[2483, 2457, 2429, 2419, 2403] 0.00265884399414
+[2483, 2457, 2422, 2419, 2410] 0.00278496742249
+[2483, 2442, 2425, 2422, 2419] 0.0029079914093
+[2466, 2457, 2429, 2420, 2419] 0.00374889373779
+[2466, 2457, 2427, 2422, 2419] 0.00392389297485
+[2466, 2442, 2434, 2425, 2424] 0.00399398803711
+[2459, 2457, 2429, 2427, 2419] 0.00427484512329
+[2459, 2442, 2434, 2431, 2425] 0.00451302528381
+[2457, 2449, 2434, 2427, 2424] 0.00495195388794
+[2456, 2446, 2435, 2427, 2427] 0.00719594955444
+[2449, 2446, 2435, 2434, 2427] 0.0159130096436
+[2448, 2447, 2446, 2435, 2415] 0.0438759326935
+[2447, 2446, 2446, 2437, 2415] 0.0446879863739
+[2446, 2446, 2444, 2440, 2415] 0.237700939178
+[2446, 2446, 2444, 2439, 2416] 0.244349002838
+[2444, 2441, 2437, 2435, 2434] 0.63432097435
+[2444, 2438, 2437, 2437, 2435] 1.74939894676
+[2443, 2439, 2437, 2437, 2435] 2.87900900841
+[2440, 2439, 2439, 2437, 2436] 5.84004497528
+[2439, 2439, 2438, 2438, 2437] 9.14493989944
+Elapsed time: 9.14517903328
+Termination condition: Enough tolerance
+Nodes explored: 393091
+Nodes left: 18
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 1*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^9
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance53
+Incumbents:
+[4292, 4283, 4282, 4257, 4201] 0.000802040100098
+[4292, 4272, 4256, 4255, 4240] 0.0015881061554
+[4291, 4279, 4257, 4248, 4240] 0.00171113014221
+[4281, 4279, 4257, 4250, 4248] 0.00202012062073
+[4278, 4277, 4257, 4257, 4246] 4.79897904396
+[4277, 4274, 4265, 4257, 4242] 4.79904317856
+[4274, 4273, 4257, 4256, 4255] 4.79930520058
+[4273, 4265, 4265, 4257, 4255] 4.84338212013
+[4273, 4265, 4263, 4259, 4255] 5.82186818123
+[4272, 4265, 4264, 4259, 4255] 5.8219370842
+[4271, 4270, 4269, 4265, 4240] 127.396879196
+[4271, 4269, 4265, 4260, 4250] 510.89724803
+Elapsed time: 1000.00001812
+Termination condition: Timeout
+Nodes explored: 30511211
+Nodes left: 22
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 5*10^11
+Nodes pruned via bounding lower than makespan objectives: 5*10^7
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance54
+Incumbents:
+[5312, 4962, 4345, 4300, 4265] 0.00163507461548
+[5160, 4941, 4371, 4368, 4344] 0.00175499916077
+[5113, 4947, 4393, 4375, 4356] 0.0449020862579
+[5105, 4972, 4408, 4389, 4310] 0.0473911762238
+[5105, 4962, 4415, 4392, 4310] 0.0481131076813
+[5105, 4956, 4416, 4393, 4314] 0.0501980781555
+[5105, 4956, 4413, 4393, 4317] 0.0522480010986
+[5073, 4947, 4417, 4407, 4340] 0.0528690814972
+[5066, 4972, 4413, 4393, 4340] 0.0537111759186
+[5066, 4962, 4417, 4399, 4340] 0.0544772148132
+[5026, 5002, 4417, 4399, 4340] 0.0551002025604
+[5026, 4994, 4417, 4407, 4340] 0.0565741062164
+[5026, 4988, 4417, 4407, 4346] 0.0616381168365
+[5026, 4988, 4417, 4397, 4356] 0.066593170166
+[5026, 4986, 4419, 4407, 4346] 0.0840630531311
+[5026, 4986, 4419, 4397, 4356] 0.0893340110779
+[5026, 4986, 4415, 4401, 4356] 0.113405227661
+[5026, 4960, 4429, 4423, 4346] 0.153785228729
+[5026, 4952, 4431, 4429, 4346] 0.155406236649
+[5026, 4952, 4429, 4421, 4356] 0.160743236542
+[5026, 4805, 4464, 4459, 4430] 0.164763212204
+[5026, 4797, 4464, 4459, 4438] 0.166484117508
+[5026, 4758, 4471, 4470, 4459] 0.168359041214
+[5026, 4758, 4470, 4466, 4464] 0.208082199097
+[5026, 4758, 4469, 4467, 4464] 0.24890422821
+Elapsed time: 0.409645080566
+Termination condition: Completed tree exploration
+Nodes explored: 9561
+Nodes left: 0
+Nodes pruned via symmetry handling: 2*10^14
+Nodes pruned via bounding: 5*10^12
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 9*10^14
+
+wellformed_moderate_instance55
+Incumbents:
+[311, 308, 308, 307, 306] 0.000530004501343
+[309, 308, 308, 308, 307] 0.000654935836792
+[308, 308, 308, 308, 308] 0.444766044617
+Elapsed time: 0.444808006287
+Termination condition: Enough tolerance
+Nodes explored: 21776
+Nodes left: 41
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 4*10^9
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance56
+Incumbents:
+[630, 626, 625, 622, 619] 0.000550985336304
+[630, 626, 624, 622, 620] 0.0020899772644
+[630, 626, 623, 622, 621] 0.00268793106079
+[627, 626, 623, 623, 623] 0.00579285621643
+[627, 625, 624, 623, 623] 0.00614595413208
+[626, 626, 624, 623, 623] 0.157819032669
+[626, 625, 625, 623, 623] 0.165719985962
+Elapsed time: 1000.00005698
+Termination condition: Timeout
+Nodes explored: 49419536
+Nodes left: 43
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 6*10^10
+Nodes pruned via bounding lower than makespan objectives: 9*10^8
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance57
+Incumbents:
+[440, 440, 439, 439, 437] 0.00151896476746
+[440, 440, 439, 438, 438] 0.00304198265076
+[440, 439, 439, 439, 438] 0.00531387329102
+[439, 439, 439, 439, 439] 0.0209300518036
+Elapsed time: 0.0209710597992
+Termination condition: Enough tolerance
+Nodes explored: 621
+Nodes left: 38
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 2*10^14
+Nodes pruned via bounding lower than makespan objectives: 3940
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance58
+Incumbents:
+[2386, 2373, 2332, 2328, 2327] 0.000452995300293
+[2370, 2350, 2349, 2339, 2338] 0.000560998916626
+[2362, 2362, 2359, 2337, 2326] 0.00105500221252
+[2359, 2359, 2348, 2343, 2337] 0.00226497650146
+[2359, 2355, 2353, 2348, 2331] 0.00232982635498
+[2356, 2354, 2352, 2348, 2336] 0.00374579429626
+[2352, 2351, 2351, 2348, 2344] 0.00476384162903
+[2351, 2351, 2351, 2348, 2345] 0.422917842865
+[2351, 2351, 2348, 2348, 2348] 0.423055887222
+[2351, 2350, 2349, 2348, 2348] 0.427005767822
+[2350, 2350, 2349, 2349, 2348] 0.461678981781
+Elapsed time: 0.461767911911
+Termination condition: Enough tolerance
+Nodes explored: 20761
+Nodes left: 40
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 2*10^14
+Nodes pruned via bounding lower than makespan objectives: 1*10^11
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance59
+Incumbents:
+[6607, 6578, 6508, 6307, 6296] 0.000546932220459
+[6517, 6515, 6487, 6465, 6312] 0.000687122344971
+[6517, 6497, 6493, 6463, 6326] 0.00585603713989
+[6517, 6497, 6488, 6468, 6326] 0.0135769844055
+[6517, 6497, 6487, 6469, 6326] 0.0271029472351
+[6517, 6497, 6486, 6470, 6326] 0.0467729568481
+[6517, 6497, 6479, 6477, 6326] 0.0496580600739
+[6512, 6497, 6493, 6468, 6326] 0.0871620178223
+[6512, 6497, 6492, 6469, 6326] 0.104926109314
+[6512, 6497, 6487, 6474, 6326] 0.124297142029
+[6497, 6493, 6493, 6487, 6326] 0.127126932144
+[6497, 6493, 6492, 6488, 6326] 0.844115018845
+[6497, 6492, 6491, 6490, 6326] 1.51932191849
+[6497, 6491, 6491, 6491, 6326] 26.5625669956
+[6493, 6493, 6492, 6492, 6326] 105.747535944
+Elapsed time: 1000.00014496
+Termination condition: Timeout
+Nodes explored: 46462971
+Nodes left: 49
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 8*10^10
+Nodes pruned via bounding lower than makespan objectives: 7*10^7
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance60
+Incumbents:
+[6743, 6317, 6314, 6292, 6284] 0.00217604637146
+[6711, 6336, 6315, 6310, 6278] 0.00447607040405
+[6695, 6335, 6316, 6310, 6294] 0.00520801544189
+[6617, 6362, 6340, 6321, 6310] 0.00576496124268
+[6604, 6371, 6344, 6321, 6310] 0.00614809989929
+[6604, 6365, 6337, 6323, 6321] 0.00699305534363
+[6604, 6351, 6339, 6335, 6321] 0.007080078125
+[6604, 6348, 6348, 6336, 6314] 0.0192239284515
+[6604, 6348, 6343, 6341, 6314] 0.025887966156
+[6604, 6346, 6344, 6342, 6314] 0.036484003067
+[6604, 6344, 6342, 6334, 6326] 0.0758669376373
+[6604, 6343, 6342, 6335, 6326] 0.126965045929
+[6604, 6342, 6341, 6341, 6322] 0.128197908401
+[6604, 6341, 6341, 6338, 6326] 0.147814035416
+[6604, 6339, 6338, 6336, 6333] 0.240301132202
+[6604, 6339, 6338, 6335, 6334] 1.04488897324
+[6604, 6339, 6337, 6336, 6334] 1.58943009377
+[6604, 6338, 6337, 6336, 6335] 1.79256796837
+[6604, 6337, 6337, 6336, 6336] 3.04499197006
+[6599, 6371, 6349, 6321, 6310] 4.8733189106
+[6577, 6371, 6355, 6326, 6321] 4.87386512756
+[6575, 6373, 6355, 6326, 6321] 4.88873195648
+[6575, 6370, 6355, 6326, 6324] 4.9718849659
+[6575, 6368, 6359, 6325, 6323] 5.08318710327
+[6554, 6380, 6365, 6328, 6323] 5.17252492905
+[6532, 6396, 6368, 6328, 6326] 5.17322707176
+[6532, 6396, 6365, 6334, 6323] 5.17625403404
+[6532, 6387, 6365, 6343, 6323] 5.17757105827
+[6532, 6383, 6365, 6347, 6323] 5.18422698975
+[6532, 6374, 6365, 6354, 6325] 5.18556690216
+[6532, 6372, 6367, 6354, 6325] 5.48357391357
+[6532, 6367, 6366, 6344, 6341] 7.82402706146
+[6532, 6367, 6363, 6353, 6335] 7.82541108131
+[6532, 6366, 6365, 6344, 6343] 8.63524508476
+[6532, 6365, 6365, 6353, 6335] 8.6366789341
+[6532, 6363, 6363, 6357, 6335] 9.47621798515
+[6532, 6363, 6361, 6357, 6337] 11.4233810902
+[6531, 6380, 6373, 6333, 6333] 15.9198029041
+[6509, 6402, 6373, 6333, 6333] 15.9206171036
+[6509, 6396, 6378, 6334, 6333] 15.924478054
+[6509, 6387, 6378, 6343, 6333] 15.9262330532
+[6509, 6383, 6378, 6347, 6333] 15.9343299866
+[6509, 6378, 6374, 6356, 6333] 15.9360790253
+[6509, 6375, 6375, 6358, 6333] 16.0834310055
+[6509, 6375, 6373, 6360, 6333] 16.3516819477
+[6509, 6375, 6371, 6349, 6346] 16.5938310623
+[6509, 6374, 6372, 6349, 6346] 16.597949028
+[6509, 6373, 6373, 6349, 6346] 16.6138439178
+[6509, 6373, 6367, 6363, 6338] 18.0201630592
+[6509, 6373, 6365, 6363, 6340] 18.0714831352
+[6509, 6367, 6367, 6363, 6344] 18.4729521275
+[6509, 6365, 6364, 6357, 6355] 31.225976944
+[6509, 6364, 6363, 6359, 6355] 41.6106219292
+[6509, 6364, 6363, 6358, 6356] 41.9157431126
+[6490, 6402, 6373, 6352, 6333] 54.1143050194
+[6490, 6396, 6378, 6352, 6334] 54.1181609631
+[6490, 6387, 6378, 6352, 6343] 54.1199090481
+[6490, 6383, 6378, 6352, 6347] 54.1279969215
+[6490, 6378, 6374, 6356, 6352] 54.129750967
+[6490, 6375, 6375, 6358, 6352] 54.2772779465
+[6490, 6375, 6373, 6360, 6352] 54.5452530384
+[6490, 6375, 6371, 6362, 6352] 54.7871620655
+[6490, 6374, 6372, 6362, 6352] 54.7912900448
+[6490, 6373, 6373, 6362, 6352] 54.8071939945
+[6490, 6373, 6373, 6361, 6353] 59.7480840683
+[6490, 6373, 6373, 6358, 6356] 60.9649500847
+[6475, 6402, 6373, 6367, 6333] 61.4500350952
+[6475, 6396, 6378, 6367, 6334] 61.4538741112
+[6475, 6387, 6378, 6367, 6343] 61.4556150436
+[6475, 6383, 6378, 6367, 6347] 61.4636991024
+[6475, 6378, 6374, 6367, 6356] 61.4654450417
+[6475, 6375, 6375, 6367, 6358] 61.6133499146
+[6475, 6375, 6373, 6367, 6360] 61.8811609745
+[6475, 6375, 6371, 6367, 6362] 62.1229610443
+[6475, 6374, 6372, 6367, 6362] 62.1270799637
+[6475, 6373, 6373, 6367, 6362] 62.1429140568
+[6465, 6380, 6373, 6367, 6365] 62.2235190868
+[6443, 6402, 6373, 6367, 6365] 62.2243299484
+[6443, 6396, 6379, 6367, 6365] 62.228112936
+[6443, 6388, 6387, 6367, 6365] 62.2298109531
+[6443, 6387, 6384, 6369, 6367] 62.3655920029
+[6430, 6387, 6380, 6380, 6373] 62.4083919525
+[6408, 6402, 6387, 6380, 6373] 62.409222126
+[6408, 6396, 6387, 6380, 6379] 62.4130079746
+[6408, 6388, 6387, 6387, 6380] 62.4146981239
+[6402, 6395, 6387, 6386, 6380] 62.4350581169
+[6401, 6395, 6387, 6387, 6380] 62.4388480186
+[6400, 6395, 6388, 6387, 6380] 62.4405419827
+[6399, 6395, 6389, 6387, 6380] 62.4441311359
+[6399, 6391, 6389, 6389, 6382] 62.4488780499
+[6397, 6391, 6390, 6390, 6382] 62.453042984
+[6396, 6391, 6391, 6390, 6382] 62.6433551311
+[6395, 6392, 6391, 6390, 6382] 62.6609799862
+[6393, 6393, 6391, 6391, 6382] 63.4375150204
+[6393, 6392, 6392, 6391, 6382] 63.5823469162
+[6392, 6391, 6391, 6390, 6386] 65.8374340534
+[6391, 6391, 6391, 6391, 6386] 75.7465689182
+Elapsed time: 1000.00016499
+Termination condition: Timeout
+Nodes explored: 39817046
+Nodes left: 27
+Nodes pruned via symmetry handling: 2*10^21
+Nodes pruned via bounding: 7*10^17
+Nodes pruned via bounding lower than makespan objectives: 1*10^13
+Remaining nodes: 9*10^21
+
+wellformed_moderate_instance61
+Incumbents:
+[440, 439, 438, 436, 434] 0.00174117088318
+[440, 438, 438, 437, 434] 0.00194001197815
+[439, 439, 438, 437, 434] 0.0548691749573
+[439, 438, 438, 438, 434] 0.136667013168
+Elapsed time: 1000.00006914
+Termination condition: Timeout
+Nodes explored: 48052386
+Nodes left: 60
+Nodes pruned via symmetry handling: 2*10^28
+Nodes pruned via bounding: 3*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^11
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance62
+Incumbents:
+[870, 867, 866, 858, 837] 0.00190305709839
+[870, 866, 865, 859, 838] 0.00246500968933
+[869, 867, 865, 859, 838] 0.00317811965942
+[869, 866, 865, 859, 839] 0.00373721122742
+[863, 862, 860, 857, 856] 0.0111060142517
+[863, 861, 860, 858, 856] 4.30656909943
+[863, 860, 860, 859, 856] 4.30778312683
+[862, 862, 860, 858, 856] 4.50342917442
+[862, 860, 860, 860, 856] 4.50462317467
+[861, 861, 860, 860, 856] 4.63981509209
+Elapsed time: 1000.00005817
+Termination condition: Timeout
+Nodes explored: 51964481
+Nodes left: 68
+Nodes pruned via symmetry handling: 2*10^28
+Nodes pruned via bounding: 1*10^10
+Nodes pruned via bounding lower than makespan objectives: 2*10^9
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance63
+Incumbents:
+[791, 790, 790, 790, 790] 0.00158786773682
+Elapsed time: 0.00166487693787
+Termination condition: Enough tolerance
+Nodes explored: 6
+Nodes left: 1
+Nodes pruned via symmetry handling: 1*10^28
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance64
+Incumbents:
+[4161, 4155, 4145, 4139, 4138] 0.00062084197998
+[4154, 4148, 4148, 4145, 4143] 0.000887870788574
+[4153, 4152, 4150, 4144, 4139] 0.00518083572388
+Elapsed time: 1000.000067
+Termination condition: Timeout
+Nodes explored: 38546286
+Nodes left: 55
+Nodes pruned via symmetry handling: 2*10^28
+Nodes pruned via bounding: 1*10^14
+Nodes pruned via bounding lower than makespan objectives: 1*10^12
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance65
+Incumbents:
+[8425, 8385, 8364, 8322, 8307] 0.00148701667786
+[8385, 8382, 8368, 8366, 8302] 0.00183200836182
+[8374, 8369, 8366, 8364, 8330] 0.00457978248596
+Elapsed time: 1000.00002789
+Termination condition: Timeout
+Nodes explored: 40703381
+Nodes left: 69
+Nodes pruned via symmetry handling: 2*10^28
+Nodes pruned via bounding: 1*10^17
+Nodes pruned via bounding lower than makespan objectives: 1*10^9
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance66
+Incumbents:
+[7195, 7193, 7191, 7179, 7176] 0.00157308578491
+[7192, 7190, 7189, 7185, 7178] 0.00225400924683
+Elapsed time: 1000.00002789
+Termination condition: Timeout
+Nodes explored: 52456706
+Nodes left: 46
+Nodes pruned via symmetry handling: 2*10^28
+Nodes pruned via bounding: 4*10^13
+Nodes pruned via bounding lower than makespan objectives: 3*10^10
+Remaining nodes: 9*10^28
+
+wellformed_moderate_instance67
+Incumbents:
+[465, 462, 462, 462, 461] 0.00150609016418
+[464, 463, 462, 462, 461] 0.00287508964539
+[463, 463, 463, 462, 461] 0.00462102890015
+[463, 463, 462, 462, 462] 0.00660109519958
+Elapsed time: 0.00665307044983
+Termination condition: Enough tolerance
+Nodes explored: 66
+Nodes left: 39
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance68
+Incumbents:
+[971, 971, 970, 968, 964] 0.0013370513916
+[971, 971, 968, 967, 967] 0.00333690643311
+[971, 970, 969, 969, 965] 0.00394296646118
+Elapsed time: 1000.00005889
+Termination condition: Timeout
+Nodes explored: 51915791
+Nodes left: 85
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 1*10^22
+Nodes pruned via bounding lower than makespan objectives: 2*10^6
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance69
+Incumbents:
+[1062, 1057, 1056, 1056, 1055] 0.00249218940735
+[1061, 1058, 1056, 1056, 1055] 0.00596308708191
+[1060, 1058, 1056, 1056, 1056] 0.00613307952881
+[1058, 1058, 1057, 1057, 1056] 0.00669813156128
+[1058, 1057, 1057, 1057, 1057] 0.0068621635437
+Elapsed time: 0.00735521316528
+Termination condition: Enough tolerance
+Nodes explored: 51
+Nodes left: 30
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance70
+Incumbents:
+[5194, 5176, 5172, 5161, 5160] 0.000648021697998
+[5191, 5173, 5169, 5165, 5165] 0.000878095626831
+[5186, 5178, 5171, 5165, 5163] 0.00185990333557
+[5180, 5179, 5170, 5167, 5167] 0.00450301170349
+[5176, 5173, 5173, 5171, 5170] 0.00745987892151
+[5176, 5173, 5172, 5172, 5170] 0.00758790969849
+[5175, 5175, 5175, 5169, 5169] 28.6185081005
+[5175, 5175, 5173, 5171, 5169] 30.2102119923
+[5175, 5174, 5173, 5172, 5169] 30.5800819397
+[5174, 5174, 5173, 5173, 5169] 30.967222929
+Elapsed time: 1000.00005007
+Termination condition: Timeout
+Nodes explored: 50971771
+Nodes left: 67
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 2*10^13
+Nodes pruned via bounding lower than makespan objectives: 3*10^11
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance71
+Incumbents:
+[10228, 10222, 10212, 10199, 10166] 0.00161910057068
+[10214, 10213, 10208, 10202, 10190] 0.0020899772644
+Elapsed time: 1000.00007796
+Termination condition: Timeout
+Nodes explored: 37211226
+Nodes left: 82
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 5*10^16
+Nodes pruned via bounding lower than makespan objectives: 5*10^7
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance72
+Incumbents:
+[9386, 9386, 9384, 9373, 9370] 0.00162386894226
+[9383, 9382, 9379, 9379, 9376] 0.00384092330933
+[9383, 9381, 9380, 9378, 9377] 0.130874872208
+[9383, 9380, 9380, 9379, 9377] 0.141040802002
+[9382, 9382, 9380, 9378, 9377] 0.241541862488
+[9382, 9380, 9380, 9380, 9377] 0.329257011414
+[9381, 9381, 9380, 9380, 9377] 0.381933927536
+Elapsed time: 0.381967782974
+Termination condition: Enough tolerance
+Nodes explored: 11296
+Nodes left: 60
+Nodes pruned via symmetry handling: 2*10^35
+Nodes pruned via bounding: 4*10^20
+Nodes pruned via bounding lower than makespan objectives: 1*10^10
+Remaining nodes: 9*10^35
+
+wellformed_moderate_instance73
+Incumbents:
+[185, 173, 172, 172, 170, 168] 0.00053882598877
+[183, 181, 170, 169, 169, 168] 0.00109195709229
+[181, 180, 171, 170, 169, 169] 0.00142598152161
+[181, 177, 171, 171, 171, 169] 0.00180387496948
+[181, 174, 172, 171, 171, 171] 0.00223898887634
+[180, 175, 173, 172, 171, 169] 0.0039598941803
+[180, 174, 173, 172, 171, 170] 0.00471186637878
+[176, 174, 174, 173, 173, 170] 0.00628399848938
+[175, 174, 174, 174, 172, 171] 0.00728893280029
+[174, 174, 174, 173, 173, 172] 0.00871300697327
+[174, 174, 173, 173, 173, 173] 0.106414794922
+Elapsed time: 0.106526851654
+Termination condition: Enough tolerance
+Nodes explored: 3367
+Nodes left: 22
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 2*10^14
+Nodes pruned via bounding lower than makespan objectives: 3*10^13
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance74
+Incumbents:
+[287, 275, 272, 266, 265, 258] 0.000646114349365
+[287, 273, 272, 267, 266, 258] 0.00256109237671
+[285, 285, 270, 265, 262, 256] 0.0036780834198
+[284, 284, 283, 268, 252, 252] 0.00430798530579
+[284, 284, 270, 268, 261, 256] 0.00466799736023
+[281, 279, 269, 268, 265, 261] 0.00630617141724
+[279, 278, 273, 268, 265, 260] 0.00649404525757
+[279, 278, 272, 268, 265, 261] 0.00668811798096
+[278, 277, 273, 267, 266, 262] 0.0185430049896
+[278, 277, 271, 270, 266, 261] 0.0203189849854
+[278, 277, 270, 270, 266, 262] 0.0217411518097
+[278, 277, 270, 268, 268, 262] 0.0276229381561
+[278, 276, 274, 267, 266, 262] 0.0477700233459
+[278, 276, 271, 270, 266, 262] 0.049546957016
+[278, 276, 271, 268, 268, 262] 0.0552201271057
+[278, 276, 270, 269, 266, 264] 0.107311010361
+[278, 276, 269, 268, 268, 264] 0.112991094589
+[278, 274, 273, 272, 266, 260] 0.151309013367
+[278, 274, 272, 272, 266, 261] 0.151832103729
+[278, 273, 272, 269, 266, 265] 0.15274310112
+[278, 272, 272, 270, 266, 265] 0.154261112213
+[278, 272, 270, 270, 268, 265] 0.166286945343
+[278, 271, 271, 270, 268, 265] 0.26905298233
+[277, 277, 277, 266, 264, 262] 0.381523132324
+[277, 275, 273, 271, 265, 262] 0.400330066681
+[276, 275, 274, 271, 265, 262] 0.420297145844
+[275, 274, 273, 270, 266, 265] 0.471409082413
+[274, 274, 270, 270, 270, 265] 0.857828140259
+[274, 273, 271, 270, 270, 265] 0.887174129486
+[274, 273, 270, 270, 269, 267] 1.04057502747
+[274, 271, 271, 270, 270, 267] 1.12005114555
+[274, 271, 271, 270, 269, 268] 2.3669860363
+[274, 271, 270, 270, 270, 268] 3.12328004837
+[274, 271, 270, 270, 269, 269] 10.8565590382
+[274, 270, 270, 270, 270, 269] 15.9964010715
+[273, 271, 270, 270, 270, 269] 16.5889041424
+[271, 271, 271, 270, 270, 270] 16.5900421143
+Elapsed time: 16.5901451111
+Termination condition: Enough tolerance
+Nodes explored: 784471
+Nodes left: 31
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 1*10^11
+Nodes pruned via bounding lower than makespan objectives: 1*10^9
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance75
+Incumbents:
+[399, 393, 392, 389, 382, 379] 0.000833988189697
+[396, 391, 391, 387, 386, 383] 0.000963926315308
+[394, 393, 391, 387, 386, 383] 0.00123882293701
+[392, 391, 391, 389, 388, 383] 0.00142097473145
+[391, 391, 389, 388, 388, 387] 0.00175189971924
+[391, 390, 389, 389, 388, 387] 0.586041927338
+[391, 389, 389, 389, 389, 387] 0.722417831421
+[390, 390, 389, 389, 389, 387] 10.1835739613
+[390, 390, 389, 389, 388, 388] 11.8568639755
+[390, 389, 389, 389, 389, 388] 11.9193470478
+Elapsed time: 11.92314291
+Termination condition: Completed tree exploration
+Nodes explored: 336151
+Nodes left: 0
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 9*10^13
+Nodes pruned via bounding lower than makespan objectives: 3*10^13
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance76
+Incumbents:
+[1885, 1864, 1859, 1850, 1848, 1805] 0.000741004943848
+[1878, 1866, 1851, 1850, 1838, 1828] 0.00145387649536
+[1868, 1862, 1859, 1850, 1848, 1824] 0.00319886207581
+[1864, 1861, 1860, 1853, 1851, 1822] 0.0102128982544
+[1861, 1858, 1857, 1857, 1856, 1822] 0.0145800113678
+[1861, 1858, 1857, 1856, 1855, 1824] 0.051059961319
+[1857, 1857, 1853, 1850, 1849, 1845] 0.482061862946
+[1857, 1856, 1853, 1851, 1849, 1845] 3.74420881271
+[1856, 1855, 1853, 1853, 1849, 1845] 3.79044389725
+[1856, 1853, 1852, 1851, 1851, 1848] 6.99590182304
+[1854, 1853, 1853, 1851, 1850, 1850] 22.4717628956
+[1853, 1853, 1853, 1852, 1850, 1850] 22.5541918278
+[1853, 1853, 1852, 1852, 1851, 1850] 25.5764558315
+Elapsed time: 38.0697569847
+Termination condition: Completed tree exploration
+Nodes explored: 1103683
+Nodes left: 0
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 2*10^14
+Nodes pruned via bounding lower than makespan objectives: 2*10^8
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance77
+Incumbents:
+[3948, 3899, 3322, 3301, 3299, 3299] 0.00160002708435
+[3910, 3871, 3561, 3251, 3238, 3237] 0.00177502632141
+[3889, 3873, 3486, 3279, 3275, 3266] 0.00520992279053
+[3853, 3804, 3508, 3486, 3220, 3197] 0.00568604469299
+[3847, 3844, 3508, 3486, 3192, 3191] 0.00579595565796
+[3830, 3795, 3508, 3486, 3250, 3199] 0.0059769153595
+[3790, 3784, 3508, 3486, 3253, 3247] 0.00930404663086
+[3790, 3779, 3508, 3486, 3258, 3247] 0.0128509998322
+[3784, 3773, 3508, 3486, 3270, 3247] 0.0165169239044
+[3779, 3773, 3508, 3486, 3275, 3247] 0.0249469280243
+[3765, 3740, 3508, 3486, 3311, 3258] 0.096617937088
+[3765, 3740, 3508, 3486, 3303, 3266] 0.107070922852
+[3765, 3740, 3508, 3486, 3294, 3275] 0.10976600647
+[3752, 3732, 3508, 3486, 3337, 3253] 0.193798065186
+[3752, 3727, 3508, 3486, 3337, 3258] 0.196417093277
+[3735, 3732, 3508, 3486, 3337, 3270] 0.199147939682
+[3735, 3727, 3508, 3486, 3337, 3275] 0.206069946289
+[3735, 3727, 3508, 3486, 3308, 3304] 0.266086101532
+[3733, 3730, 3508, 3486, 3370, 3241] 0.316385030746
+[3733, 3713, 3508, 3486, 3370, 3258] 0.317574977875
+[3733, 3713, 3508, 3486, 3362, 3266] 0.328068971634
+[3733, 3713, 3508, 3486, 3353, 3275] 0.330769062042
+[3727, 3719, 3508, 3486, 3370, 3258] 0.357567071915
+[3727, 3719, 3508, 3486, 3362, 3266] 0.367917060852
+[3727, 3719, 3508, 3486, 3353, 3275] 0.370618104935
+[3713, 3700, 3508, 3486, 3403, 3258] 0.377623081207
+[3713, 3683, 3508, 3486, 3403, 3275] 0.387053012848
+[3713, 3683, 3508, 3486, 3370, 3308] 0.419986009598
+[3713, 3683, 3508, 3486, 3362, 3316] 0.426964998245
+[3713, 3683, 3486, 3472, 3439, 3275] 3.01889705658
+[3713, 3683, 3486, 3439, 3439, 3308] 3.05182504654
+[3713, 3683, 3486, 3439, 3431, 3316] 3.05876588821
+[3713, 3683, 3486, 3439, 3380, 3367] 3.82251095772
+[3713, 3683, 3486, 3431, 3380, 3375] 3.8294699192
+[3713, 3683, 3470, 3455, 3439, 3308] 30.2442090511
+[3713, 3683, 3470, 3447, 3439, 3316] 30.251157999
+[3713, 3683, 3470, 3447, 3380, 3375] 31.0234489441
+[3713, 3683, 3455, 3439, 3436, 3342] 38.4336659908
+[3713, 3683, 3447, 3444, 3439, 3342] 38.4405710697
+[3713, 3683, 3447, 3444, 3401, 3380] 38.7111010551
+[3713, 3676, 3508, 3493, 3403, 3275] 65.7842469215
+[3713, 3676, 3508, 3493, 3370, 3308] 65.8170239925
+[3713, 3676, 3508, 3493, 3362, 3316] 65.8239378929
+[3713, 3676, 3493, 3472, 3439, 3275] 68.5409309864
+[3713, 3676, 3493, 3439, 3439, 3308] 68.57385993
+[3713, 3676, 3493, 3439, 3431, 3316] 68.5807909966
+[3713, 3676, 3493, 3439, 3380, 3367] 69.435669899
+[3713, 3676, 3493, 3431, 3380, 3375] 69.4426050186
+[3713, 3676, 3488, 3477, 3439, 3275] 86.9988598824
+[3713, 3676, 3477, 3455, 3439, 3308] 87.0318229198
+[3713, 3676, 3477, 3447, 3439, 3316] 87.0387408733
+[3713, 3676, 3477, 3447, 3380, 3375] 87.9180541039
+[3713, 3676, 3455, 3439, 3436, 3349] 92.6871891022
+[3713, 3676, 3447, 3444, 3439, 3349] 92.6941480637
+[3713, 3676, 3447, 3444, 3408, 3380] 93.6438570023
+[3700, 3674, 3583, 3439, 3431, 3241] 134.50632906
+[3700, 3674, 3583, 3439, 3422, 3250] 134.510096073
+[3700, 3674, 3583, 3439, 3414, 3258] 134.511318922
+[3692, 3674, 3583, 3439, 3439, 3241] 134.51560092
+[3675, 3674, 3583, 3439, 3439, 3258] 134.51680398
+[3675, 3674, 3583, 3439, 3431, 3266] 134.52741909
+[3675, 3674, 3583, 3439, 3422, 3275] 134.530183077
+[3675, 3641, 3583, 3472, 3439, 3258] 134.576961994
+[3668, 3648, 3583, 3472, 3439, 3258] 134.58394289
+[3668, 3640, 3583, 3472, 3439, 3266] 134.589575052
+[3668, 3631, 3583, 3472, 3439, 3275] 134.592304945
+[3668, 3631, 3583, 3439, 3439, 3308] 134.626183033
+[3668, 3631, 3583, 3439, 3431, 3316] 134.633359909
+[3668, 3631, 3583, 3439, 3380, 3367] 135.519460917
+[3668, 3631, 3583, 3431, 3380, 3375] 135.526587963
+[3668, 3631, 3508, 3498, 3488, 3275] 137.79675293
+[3668, 3631, 3508, 3498, 3455, 3308] 137.830457926
+[3668, 3631, 3508, 3498, 3447, 3316] 137.837508917
+[3668, 3631, 3508, 3455, 3439, 3367] 138.023741007
+[3668, 3631, 3508, 3447, 3439, 3375] 138.030821085
+[3668, 3631, 3508, 3447, 3408, 3406] 138.10520196
+[3668, 3631, 3455, 3439, 3439, 3436] 146.87529707
+[3668, 3631, 3447, 3444, 3439, 3439] 146.882282972
+[3656, 3648, 3553, 3550, 3403, 3258] 341.743676901
+[3656, 3640, 3553, 3550, 3403, 3266] 341.751724958
+[3656, 3631, 3553, 3550, 3403, 3275] 341.756223917
+[3656, 3631, 3553, 3550, 3370, 3308] 341.803395033
+[3656, 3631, 3553, 3550, 3362, 3316] 341.814642906
+[3656, 3631, 3553, 3481, 3472, 3275] 342.76258707
+[3656, 3631, 3553, 3481, 3439, 3308] 342.807749987
+[3656, 3631, 3553, 3481, 3431, 3316] 342.818474054
+[3656, 3631, 3553, 3439, 3422, 3367] 343.234230995
+[3656, 3631, 3553, 3431, 3422, 3375] 343.245014906
+[3656, 3631, 3553, 3431, 3408, 3389] 343.347490072
+[3656, 3631, 3536, 3498, 3472, 3275] 441.005147934
+[3656, 3631, 3536, 3498, 3439, 3308] 441.052716017
+[3656, 3631, 3536, 3498, 3431, 3316] 441.06409502
+[3656, 3631, 3536, 3439, 3439, 3367] 441.488462925
+[3656, 3631, 3536, 3439, 3431, 3375] 441.499579906
+[3656, 3631, 3536, 3431, 3408, 3406] 441.604284048
+[3656, 3631, 3520, 3498, 3488, 3275] 467.995076895
+[3656, 3631, 3520, 3498, 3455, 3308] 468.043685913
+[3656, 3631, 3520, 3498, 3447, 3316] 468.055433035
+[3656, 3631, 3520, 3455, 3439, 3367] 468.489789963
+[3656, 3631, 3520, 3447, 3439, 3375] 468.501626968
+[3656, 3631, 3520, 3447, 3408, 3406] 468.609814882
+[3656, 3631, 3455, 3451, 3439, 3436] 476.462812901
+[3656, 3631, 3451, 3447, 3444, 3439] 476.476425886
+[3656, 3624, 3560, 3550, 3403, 3275] 781.113007069
+[3656, 3624, 3560, 3550, 3370, 3308] 781.171442986
+[3656, 3624, 3560, 3550, 3362, 3316] 781.18578887
+[3656, 3624, 3560, 3481, 3472, 3275] 782.350240946
+[3656, 3624, 3560, 3481, 3439, 3308] 782.410851002
+[3656, 3624, 3560, 3481, 3431, 3316] 782.426006079
+[3656, 3624, 3560, 3439, 3422, 3367] 782.97129488
+[3656, 3624, 3560, 3431, 3422, 3375] 782.986289024
+[3656, 3624, 3560, 3431, 3408, 3389] 783.128113031
+[3656, 3624, 3543, 3498, 3472, 3275] 830.667491913
+[3656, 3624, 3543, 3498, 3439, 3308] 830.727626085
+[3656, 3624, 3543, 3498, 3431, 3316] 830.742487907
+[3656, 3624, 3543, 3439, 3439, 3367] 831.287714958
+[3656, 3624, 3543, 3439, 3431, 3375] 831.302876949
+[3656, 3624, 3543, 3431, 3408, 3406] 831.445941925
+[3656, 3624, 3527, 3498, 3488, 3275] 847.853600979
+[3656, 3624, 3527, 3498, 3455, 3308] 847.915088892
+[3656, 3624, 3527, 3498, 3447, 3316] 847.929970026
+[3656, 3624, 3527, 3455, 3439, 3367] 848.480668068
+[3656, 3624, 3527, 3447, 3439, 3375] 848.495855093
+[3656, 3624, 3527, 3447, 3408, 3406] 848.640193939
+[3656, 3624, 3458, 3455, 3439, 3436] 854.276571035
+[3656, 3624, 3458, 3447, 3444, 3439] 854.29184103
+Elapsed time: 1000.00001001
+Termination condition: Timeout
+Nodes explored: 41604919
+Nodes left: 33
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 1*10^10
+Nodes pruned via bounding lower than makespan objectives: 18
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance78
+Incumbents:
+[4135, 4046, 4026, 3995, 3962, 3957] 0.00162720680237
+[4101, 4086, 4059, 3978, 3949, 3948] 0.00176811218262
+[4101, 4086, 4050, 3978, 3968, 3938] 0.00195908546448
+[4100, 4086, 4046, 3978, 3973, 3938] 0.00203919410706
+[4086, 4076, 4046, 4007, 3968, 3938] 0.00221920013428
+[4086, 4071, 4046, 4007, 3973, 3938] 0.00229716300964
+[4086, 4046, 4030, 4026, 3995, 3938] 0.00237321853638
+[4086, 4040, 4029, 4007, 3981, 3978] 0.0964992046356
+[4086, 4040, 4024, 4007, 3986, 3978] 0.122275114059
+[4075, 4054, 4026, 3995, 3993, 3978] 0.149802207947
+[4075, 4054, 4021, 4000, 3993, 3978] 0.154944181442
+[4069, 4054, 4053, 3993, 3978, 3974] 0.163110017776
+[4069, 4054, 4048, 3993, 3979, 3978] 0.169798135757
+[4067, 4054, 4026, 3995, 3990, 3989] 0.188477039337
+[4054, 4053, 4040, 3995, 3990, 3989] 0.189753055573
+[4054, 4048, 4040, 4000, 3990, 3989] 0.196924209595
+[4054, 4040, 4029, 4007, 4002, 3989] 0.223342180252
+[4054, 4040, 4024, 4007, 4007, 3989] 0.250160217285
+[4054, 4029, 4018, 4011, 4007, 4002] 0.347560167313
+[4054, 4024, 4018, 4011, 4007, 4007] 0.373752117157
+[4053, 4051, 4040, 3995, 3992, 3990] 0.846872091293
+[4051, 4048, 4040, 4000, 3992, 3990] 0.854032993317
+[4051, 4040, 4029, 4007, 4002, 3992] 0.878247022629
+[4051, 4040, 4024, 4007, 4007, 3992] 0.905011177063
+[4048, 4040, 4023, 4018, 4000, 3992] 1.00671315193
+[4048, 4040, 4023, 4011, 4007, 3992] 1.04203820229
+[4040, 4029, 4018, 4014, 4013, 4007] 1.07647514343
+[4040, 4024, 4019, 4018, 4013, 4007] 1.1504971981
+[4031, 4026, 4023, 4016, 4014, 4011] 1.40195608139
+[4031, 4023, 4021, 4021, 4014, 4011] 1.40359306335
+[4029, 4028, 4018, 4018, 4014, 4014] 1.46378207207
+[4028, 4024, 4019, 4018, 4018, 4014] 1.53693819046
+[4026, 4025, 4023, 4018, 4015, 4014] 4.68479418755
+[4025, 4023, 4021, 4020, 4018, 4014] 5.46168208122
+Elapsed time: 12.4618330002
+Termination condition: Completed tree exploration
+Nodes explored: 325063
+Nodes left: 0
+Nodes pruned via symmetry handling: 7*10^15
+Nodes pruned via bounding: 7*10^13
+Nodes pruned via bounding lower than makespan objectives: 7*10^6
+Remaining nodes: 3*10^16
+
+wellformed_moderate_instance79
+Incumbents:
+[269, 266, 263, 258, 255, 255] 0.000764846801758
+[269, 263, 260, 260, 258, 256] 0.00419688224792
+[269, 262, 261, 260, 258, 256] 0.0044310092926
+[267, 264, 260, 259, 258, 258] 0.00480604171753
+[265, 265, 260, 259, 259, 258] 0.0056619644165
+[264, 262, 261, 260, 260, 259] 0.0058388710022
+[262, 262, 261, 261, 260, 260] 0.00689697265625
+[262, 261, 261, 261, 261, 260] 0.00864696502686
+[261, 261, 261, 261, 261, 261] 855.68558383
+Elapsed time: 855.685634851
+Termination condition: Enough tolerance
+Nodes explored: 27837301
+Nodes left: 51
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 1*10^15
+Nodes pruned via bounding lower than makespan objectives: 5*10^13
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance80
+Incumbents:
+[504, 502, 495, 487, 485, 483] 0.00217914581299
+[502, 501, 499, 491, 483, 480] 0.00281095504761
+[502, 499, 498, 491, 483, 483] 0.00420808792114
+[502, 498, 498, 492, 484, 482] 0.00616717338562
+[498, 498, 498, 495, 487, 480] 0.00630307197571
+[498, 498, 495, 491, 489, 485] 0.00646710395813
+[498, 497, 497, 489, 489, 486] 1.10669898987
+[498, 497, 493, 493, 489, 486] 12.3807761669
+[497, 496, 495, 493, 489, 486] 12.5195071697
+[496, 496, 496, 493, 489, 486] 12.9076340199
+[496, 496, 495, 494, 489, 486] 19.8293559551
+[496, 495, 495, 495, 489, 486] 19.8609149456
+Elapsed time: 1000.00014901
+Termination condition: Timeout
+Nodes explored: 51832963
+Nodes left: 57
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 5*10^10
+Nodes pruned via bounding lower than makespan objectives: 9*10^9
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance81
+Incumbents:
+[477, 470, 468, 467, 467, 465] 0.00210618972778
+[474, 471, 469, 469, 466, 465] 0.0023090839386
+[474, 471, 468, 468, 467, 466] 0.00340414047241
+[474, 470, 469, 468, 467, 466] 0.00395512580872
+[474, 469, 469, 468, 467, 467] 0.00459003448486
+[474, 469, 468, 468, 468, 467] 0.00576901435852
+[471, 471, 471, 467, 467, 467] 0.0162870883942
+[471, 471, 469, 468, 468, 467] 0.0500690937042
+[471, 470, 470, 468, 468, 467] 0.0532560348511
+[471, 470, 469, 469, 468, 467] 0.457166194916
+[470, 470, 470, 469, 468, 467] 0.548109054565
+[470, 470, 469, 469, 468, 468] 29.7246379852
+[470, 469, 469, 469, 469, 468] 30.3012731075
+Elapsed time: 1000.00015616
+Termination condition: Timeout
+Nodes explored: 38086561
+Nodes left: 32
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 4*10^18
+Nodes pruned via bounding lower than makespan objectives: 3*10^14
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance82
+Incumbents:
+[2587, 2579, 2575, 2547, 2512, 2499] 0.00195622444153
+[2582, 2547, 2544, 2544, 2542, 2540] 0.00218820571899
+[2554, 2552, 2552, 2549, 2547, 2545] 0.00248908996582
+[2553, 2552, 2551, 2550, 2550, 2543] 4.3619351387
+[2553, 2552, 2551, 2550, 2547, 2546] 4.36295104027
+[2553, 2552, 2551, 2548, 2548, 2547] 23.1682782173
+[2553, 2551, 2550, 2549, 2549, 2547] 62.4869041443
+[2553, 2550, 2550, 2550, 2549, 2547] 75.2202990055
+[2552, 2552, 2551, 2551, 2550, 2543] 87.8495650291
+Elapsed time: 1000.00008321
+Termination condition: Timeout
+Nodes explored: 28990795
+Nodes left: 38
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 7*10^15
+Nodes pruned via bounding lower than makespan objectives: 2*10^12
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance83
+Incumbents:
+[5049, 5047, 4959, 4903, 4835, 4802] 0.00179505348206
+[5045, 5016, 5003, 4914, 4843, 4774] 0.00196504592896
+[5014, 4988, 4977, 4932, 4875, 4809] 0.00494003295898
+[5008, 5002, 4986, 4932, 4868, 4799] 0.00540208816528
+[5005, 4979, 4964, 4945, 4932, 4770] 0.875992059708
+[5001, 4983, 4964, 4945, 4932, 4770] 0.878889083862
+[4999, 4985, 4964, 4945, 4932, 4770] 0.880424976349
+[4998, 4986, 4964, 4945, 4932, 4770] 1.79690790176
+[4996, 4988, 4964, 4945, 4932, 4770] 1.80302000046
+[4986, 4983, 4979, 4945, 4932, 4770] 1.91308999062
+[4985, 4984, 4979, 4945, 4932, 4770] 2.06579303741
+[4985, 4983, 4980, 4945, 4932, 4770] 2.10109090805
+[4984, 4984, 4980, 4945, 4932, 4770] 2.14412403107
+[4983, 4979, 4974, 4957, 4932, 4770] 8.54819893837
+[4981, 4981, 4974, 4957, 4932, 4770] 8.75098609924
+[4981, 4980, 4975, 4957, 4932, 4770] 8.81354093552
+[4981, 4978, 4977, 4957, 4932, 4770] 21.1797549725
+[4974, 4974, 4973, 4972, 4932, 4770] 34.0376999378
+[4969, 4936, 4932, 4929, 4926, 4903] 694.339857101
+[4969, 4933, 4932, 4932, 4926, 4903] 694.357518911
+[4969, 4932, 4932, 4930, 4926, 4906] 694.386931896
+[4969, 4932, 4932, 4926, 4922, 4914] 694.391284943
+[4969, 4932, 4930, 4927, 4926, 4911] 694.405554056
+[4969, 4932, 4929, 4928, 4926, 4911] 694.455954075
+[4969, 4932, 4927, 4926, 4926, 4915] 694.547441006
+[4963, 4936, 4932, 4932, 4929, 4903] 699.310339928
+[4963, 4933, 4932, 4932, 4932, 4903] 699.328377962
+[4963, 4932, 4932, 4932, 4930, 4906] 699.357823133
+[4963, 4932, 4932, 4932, 4922, 4914] 699.362149954
+[4963, 4932, 4932, 4930, 4927, 4911] 699.376445055
+[4963, 4932, 4932, 4929, 4928, 4911] 699.426873922
+[4963, 4932, 4932, 4927, 4926, 4915] 699.518450022
+[4963, 4932, 4930, 4929, 4925, 4916] 700.85376811
+[4963, 4932, 4929, 4927, 4925, 4919] 700.854648113
+[4957, 4950, 4932, 4931, 4925, 4900] 704.386982918
+[4957, 4932, 4932, 4930, 4925, 4919] 704.396435022
+[4949, 4941, 4932, 4931, 4925, 4917] 704.485744953
+[4949, 4941, 4932, 4926, 4925, 4922] 704.504533052
+[4946, 4940, 4932, 4932, 4926, 4919] 704.555406094
+[4942, 4940, 4932, 4932, 4930, 4919] 704.896120071
+[4942, 4940, 4932, 4930, 4926, 4925] 705.812698126
+[4938, 4933, 4932, 4932, 4930, 4930] 885.334564924
+Elapsed time: 1000.00002193
+Termination condition: Timeout
+Nodes explored: 58368505
+Nodes left: 55
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 5*10^9
+Nodes pruned via bounding lower than makespan objectives: 1*10^6
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance84
+Incumbents:
+[4245, 4242, 4242, 4230, 4224, 4221] 0.00168204307556
+[4242, 4235, 4233, 4233, 4231, 4230] 0.00213885307312
+[4239, 4238, 4238, 4235, 4231, 4223] 0.00444388389587
+[4239, 4238, 4235, 4233, 4232, 4227] 0.00532603263855
+[4236, 4235, 4235, 4235, 4233, 4230] 0.0333769321442
+[4235, 4235, 4235, 4235, 4233, 4231] 0.0585639476776
+[4235, 4235, 4235, 4233, 4233, 4233] 0.228375911713
+[4235, 4235, 4234, 4234, 4233, 4233] 41.8686649799
+[4235, 4234, 4234, 4234, 4234, 4233] 842.962609053
+Elapsed time: 1000.00019383
+Termination condition: Timeout
+Nodes explored: 30820807
+Nodes left: 34
+Nodes pruned via symmetry handling: 4*10^23
+Nodes pruned via bounding: 4*10^17
+Nodes pruned via bounding lower than makespan objectives: 2*10^14
+Remaining nodes: 2*10^24
+
+wellformed_moderate_instance85
+Incumbents:
+[356, 353, 349, 347, 345, 345] 0.00183391571045
+[355, 354, 348, 347, 346, 345] 0.00574779510498
+[354, 353, 351, 347, 347, 343] 0.00667500495911
+[353, 353, 353, 346, 345, 345] 0.0122089385986
+[353, 352, 352, 347, 346, 345] 0.0124428272247
+[351, 351, 349, 349, 348, 347] 0.013014793396
+[351, 351, 349, 348, 348, 348] 0.0132448673248
+[351, 350, 349, 349, 349, 347] 0.0141909122467
+[351, 350, 349, 349, 348, 348] 9.5628027916
+[350, 350, 349, 349, 349, 348] 9.56675601006
+[350, 349, 349, 349, 349, 349] 9.5775539875
+Elapsed time: 9.5776720047
+Termination condition: Enough tolerance
+Nodes explored: 270745
+Nodes left: 70
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 1*10^18
+Nodes pruned via bounding lower than makespan objectives: 5*10^8
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance86
+Incumbents:
+[685, 677, 675, 646, 638, 638] 0.000866889953613
+[681, 677, 672, 657, 640, 632] 0.00104284286499
+[677, 676, 670, 666, 635, 635] 0.0054759979248
+[676, 675, 671, 667, 635, 635] 0.00559186935425
+[669, 667, 666, 659, 655, 643] 0.00748085975647
+[669, 666, 666, 660, 655, 643] 0.00799798965454
+[669, 666, 665, 660, 656, 643] 0.00839781761169
+[666, 664, 664, 663, 659, 643] 0.00868391990662
+[665, 665, 664, 663, 659, 643] 0.00880193710327
+Elapsed time: 1000.00014782
+Termination condition: Timeout
+Nodes explored: 27990625
+Nodes left: 78
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 4*10^13
+Nodes pruned via bounding lower than makespan objectives: 1*10^13
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance87
+Incumbents:
+[818, 817, 813, 813, 810, 809] 0.00156712532043
+[818, 816, 815, 811, 810, 810] 0.00173306465149
+[817, 817, 814, 812, 810, 810] 0.00799608230591
+[817, 816, 816, 811, 810, 810] 0.00815415382385
+[817, 816, 815, 812, 811, 809] 0.00986099243164
+[816, 816, 814, 813, 811, 810] 0.0141952037811
+[815, 814, 813, 813, 813, 812] 0.0149300098419
+[814, 814, 814, 814, 813, 811] 3.09183716774
+[814, 814, 814, 814, 812, 812] 3.60404205322
+[814, 814, 814, 813, 813, 812] 3.6064581871
+[814, 814, 813, 813, 813, 813] 3.75742816925
+Elapsed time: 3.75754618645
+Termination condition: Enough tolerance
+Nodes explored: 107671
+Nodes left: 66
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 5*10^16
+Nodes pruned via bounding lower than makespan objectives: 3*10^13
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance88
+Incumbents:
+[3056, 3051, 3051, 3047, 3029, 3024] 0.000813007354736
+[3054, 3048, 3043, 3039, 3037, 3037] 0.00150918960571
+[3054, 3047, 3044, 3043, 3037, 3033] 0.00191402435303
+[3053, 3051, 3051, 3039, 3033, 3031] 0.00353598594666
+[3051, 3050, 3045, 3044, 3037, 3031] 0.00468611717224
+[3049, 3047, 3046, 3045, 3040, 3031] 0.00491404533386
+[3049, 3046, 3045, 3044, 3043, 3031] 0.00532197952271
+[3048, 3047, 3046, 3044, 3038, 3035] 1.44054818153
+[3047, 3046, 3045, 3044, 3038, 3038] 3.49982619286
+[3047, 3045, 3045, 3045, 3038, 3038] 3.50139904022
+[3046, 3046, 3045, 3045, 3038, 3038] 3.61425709724
+[3045, 3045, 3045, 3043, 3042, 3038] 8.94629311562
+[3045, 3045, 3044, 3043, 3043, 3038] 8.94751214981
+[3045, 3044, 3044, 3044, 3043, 3038] 288.60939908
+Elapsed time: 1000.00014901
+Termination condition: Timeout
+Nodes explored: 40209535
+Nodes left: 71
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 7*10^13
+Nodes pruned via bounding lower than makespan objectives: 6*10^11
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance89
+Incumbents:
+[7066, 7047, 6934, 6767, 6669, 6499] 0.00160694122314
+[7006, 7005, 6984, 6857, 6692, 6438] 0.00185298919678
+[6999, 6996, 6969, 6874, 6704, 6440] 0.00221705436707
+[6982, 6957, 6833, 6769, 6757, 6684] 0.00743794441223
+[6951, 6950, 6930, 6830, 6665, 6656] 0.00812911987305
+[6937, 6937, 6914, 6804, 6725, 6665] 0.00829195976257
+[6929, 6916, 6914, 6837, 6712, 6674] 0.0105171203613
+[6900, 6887, 6864, 6858, 6837, 6636] 0.0110640525818
+[6900, 6882, 6866, 6861, 6837, 6636] 0.0113670825958
+[6900, 6882, 6864, 6863, 6837, 6636] 0.0119481086731
+[6857, 6856, 6854, 6846, 6837, 6732] 0.0150790214539
+[6856, 6854, 6846, 6846, 6837, 6743] 0.0187439918518
+[6846, 6846, 6846, 6837, 6816, 6791] 0.448280096054
+[6846, 6846, 6837, 6829, 6820, 6804] 0.448541164398
+Elapsed time: 1000.00007296
+Termination condition: Timeout
+Nodes explored: 36388141
+Nodes left: 86
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 7*10^15
+Nodes pruned via bounding lower than makespan objectives: 1*10^16
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance90
+Incumbents:
+[6134, 6128, 6123, 6123, 6118, 6109] 0.00158095359802
+[6128, 6126, 6126, 6126, 6121, 6108] 0.00346493721008
+[6127, 6125, 6122, 6121, 6120, 6120] 0.0138239860535
+[6127, 6124, 6124, 6123, 6119, 6118] 0.237523794174
+[6126, 6126, 6123, 6123, 6119, 6118] 0.328014850616
+[6126, 6125, 6124, 6123, 6119, 6118] 0.368889808655
+[6125, 6125, 6125, 6123, 6119, 6118] 1.67071795464
+[6125, 6124, 6123, 6122, 6121, 6120] 2.35963797569
+[6124, 6124, 6123, 6122, 6122, 6120] 2.36599683762
+[6124, 6123, 6123, 6123, 6122, 6120] 2.46112895012
+Elapsed time: 2.46123600006
+Termination condition: Enough tolerance
+Nodes explored: 114679
+Nodes left: 62
+Nodes pruned via symmetry handling: 2*10^31
+Nodes pruned via bounding: 2*10^18
+Nodes pruned via bounding lower than makespan objectives: 9*10^7
+Remaining nodes: 1*10^32
+
+wellformed_moderate_instance91
+Incumbents:
+[485, 484, 483, 481, 481, 480] 0.000622987747192
+[485, 484, 482, 482, 481, 480] 0.000794172286987
+[484, 484, 482, 482, 482, 480] 0.00292301177979
+[483, 483, 482, 482, 482, 482] 0.00452613830566
+Elapsed time: 0.00457715988159
+Termination condition: Enough tolerance
+Nodes explored: 55
+Nodes left: 31
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 0
+Nodes pruned via bounding lower than makespan objectives: 0
+Remaining nodes: 8*10^39
+
+wellformed_moderate_instance92
+Incumbents:
+[902, 869, 867, 864, 863, 863] 0.00051212310791
+[898, 898, 861, 859, 856, 856] 0.00093412399292
+[898, 882, 875, 861, 856, 856] 0.00104904174805
+[897, 889, 868, 861, 857, 856] 0.0064902305603
+[895, 889, 877, 858, 855, 854] 0.00665616989136
+[895, 880, 876, 873, 861, 843] 0.0102159976959
+[894, 889, 876, 875, 848, 846] 0.0109000205994
+[893, 893, 880, 876, 844, 842] 0.0123841762543
+[892, 892, 880, 876, 846, 842] 0.0125470161438
+[892, 892, 876, 876, 848, 844] 0.0129351615906
+[891, 890, 879, 876, 848, 844] 0.0130960941315
+[882, 876, 876, 873, 873, 848] 0.013482093811
+[881, 876, 875, 875, 873, 848] 0.0137550830841
+[881, 876, 870, 869, 866, 866] 0.0157032012939
+[880, 879, 878, 876, 871, 844] 0.17479801178
+[879, 879, 879, 876, 871, 844] 0.258859157562
+[879, 879, 876, 876, 874, 844] 169.637898207
+[879, 877, 876, 876, 876, 844] 169.648641109
+[878, 877, 877, 876, 876, 844] 169.773962021
+Elapsed time: 1000.00012302
+Termination condition: Timeout
+Nodes explored: 47876251
+Nodes left: 104
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 8*10^22
+Nodes pruned via bounding lower than makespan objectives: 2*10^21
+Remaining nodes: 8*10^39
+
+wellformed_moderate_instance93
+Incumbents:
+[800, 800, 798, 796, 794, 793] 0.00166702270508
+[799, 799, 798, 797, 795, 793] 0.00184988975525
+[799, 798, 798, 797, 796, 793] 0.00222206115723
+[799, 798, 798, 796, 796, 794] 0.0025749206543
+[799, 798, 797, 797, 796, 794] 0.00803399085999
+[798, 798, 798, 797, 796, 794] 0.00995492935181
+[798, 798, 797, 797, 796, 795] 0.0101699829102
+[798, 797, 797, 797, 797, 795] 0.0133349895477
+[798, 797, 797, 797, 796, 796] 0.0155639648438
+[797, 797, 797, 797, 797, 796] 374.588993073
+Elapsed time: 374.58926487
+Termination condition: Enough tolerance
+Nodes explored: 9690259
+Nodes left: 72
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 3*10^24
+Nodes pruned via bounding lower than makespan objectives: 2*10^14
+Remaining nodes: 8*10^39
+
+wellformed_moderate_instance94
+Incumbents:
+[4867, 4862, 4769, 4768, 4751, 4740] 0.00185489654541
+[4865, 4860, 4772, 4767, 4749, 4744] 0.00450396537781
+[4865, 4859, 4772, 4768, 4751, 4742] 0.00490283966064
+[4865, 4857, 4772, 4771, 4751, 4741] 0.00554800033569
+[4857, 4856, 4770, 4761, 4760, 4753] 0.00617694854736
+[4831, 4819, 4818, 4794, 4753, 4742] 0.00693988800049
+[4817, 4802, 4794, 4790, 4788, 4766] 0.00769400596619
+[4817, 4800, 4800, 4789, 4788, 4763] 0.00808095932007
+[4810, 4802, 4793, 4791, 4789, 4772] 0.0089910030365
+[4808, 4803, 4793, 4792, 4791, 4770] 0.00914096832275
+[4808, 4801, 4793, 4791, 4791, 4773] 0.00927090644836
+[4807, 4804, 4798, 4790, 4785, 4773] 0.0186288356781
+[4807, 4804, 4792, 4791, 4790, 4773] 0.0226747989655
+[4806, 4804, 4792, 4792, 4790, 4773] 0.0236618518829
+[4804, 4803, 4798, 4790, 4789, 4773] 0.0615730285645
+[4804, 4802, 4799, 4790, 4789, 4773] 0.063022851944
+[4804, 4802, 4797, 4792, 4789, 4773] 0.698787927628
+[4804, 4798, 4797, 4796, 4789, 4773] 0.922670841217
+[4802, 4800, 4798, 4797, 4782, 4778] 466.654332876
+[4801, 4800, 4798, 4798, 4782, 4778] 468.732592821
+[4800, 4800, 4799, 4798, 4782, 4778] 468.758401871
+[4800, 4800, 4798, 4798, 4783, 4778] 490.201969862
+[4800, 4800, 4798, 4797, 4784, 4778] 490.217401028
+[4800, 4799, 4798, 4792, 4790, 4778] 492.469501972
+[4800, 4798, 4798, 4792, 4791, 4778] 492.871251822
+[4800, 4798, 4795, 4794, 4792, 4778] 493.07730484
+[4799, 4798, 4797, 4797, 4788, 4778] 511.379521847
+[4799, 4798, 4797, 4793, 4792, 4778] 512.221269846
+[4798, 4798, 4797, 4794, 4792, 4778] 514.443880796
+[4798, 4797, 4797, 4795, 4792, 4778] 526.159585953
+[4798, 4797, 4796, 4796, 4792, 4778] 647.223778963
+Elapsed time: 1000.000036
+Termination condition: Timeout
+Nodes explored: 34364665
+Nodes left: 98
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 1*10^18
+Nodes pruned via bounding lower than makespan objectives: 5*10^12
+Remaining nodes: 8*10^39
+
+wellformed_moderate_instance95
+Incumbents:
+[8763, 8730, 8422, 8380, 8353, 8343] 0.00166702270508
+[8760, 8738, 8422, 8383, 8345, 8343] 0.00222706794739
+[8757, 8730, 8416, 8377, 8361, 8350] 0.00258493423462
+[8715, 8679, 8652, 8338, 8308, 8299] 0.0117070674896
+[8710, 8680, 8652, 8346, 8308, 8295] 0.0118319988251
+[8631, 8615, 8589, 8569, 8374, 8213] 0.0130970478058
+[8630, 8615, 8592, 8566, 8374, 8214] 0.0139329433441
+[8624, 8606, 8597, 8583, 8374, 8207] 0.0142321586609
+[8582, 8567, 8544, 8522, 8402, 8374] 0.0146019458771
+[8579, 8568, 8543, 8525, 8402, 8374] 0.0147149562836
+[8573, 8570, 8546, 8526, 8402, 8374] 0.0148110389709
+[8557, 8543, 8521, 8512, 8484, 8374] 0.0150940418243
+Elapsed time: 1000.00029492
+Termination condition: Timeout
+Nodes explored: 37677691
+Nodes left: 102
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 2*10^12
+Nodes pruned via bounding lower than makespan objectives: 6*10^8
+Remaining nodes: 8*10^39
+
+wellformed_moderate_instance96
+Incumbents:
+[9112, 9109, 9108, 9103, 9101, 9093] 0.00185799598694
+[9111, 9109, 9109, 9105, 9102, 9090] 0.00325608253479
+[9110, 9109, 9108, 9106, 9104, 9089] 0.00446891784668
+[9109, 9108, 9105, 9104, 9104, 9096] 0.0114190578461
+[9107, 9105, 9105, 9104, 9104, 9101] 0.0116469860077
+Elapsed time: 1000.0002811
+Termination condition: Timeout
+Nodes explored: 21298789
+Nodes left: 83
+Nodes pruned via symmetry handling: 1*10^39
+Nodes pruned via bounding: 2*10^28
+Nodes pruned via bounding lower than makespan objectives: 4*10^9
+Remaining nodes: 8*10^39
+

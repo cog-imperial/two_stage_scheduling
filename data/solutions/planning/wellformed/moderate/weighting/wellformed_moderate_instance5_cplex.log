@@ -1,0 +1,84 @@
+
+Log started (V12.6.3.0) Fri Mar  2 12:42:23 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpWI5buH.pyomo.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+
+Problem name         : /tmp/tmpWI5buH.pyomo.lp
+Objective sense      : Minimize
+Variables            :      64  [Nneg: 4,  Binary: 60]
+Objective nonzeros   :       3
+Linear constraints   :      26  [Less: 2,  Equal: 24]
+  Nonzeros           :     128
+  RHS nonzeros       :      21
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 4.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1490.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Found incumbent of value 80712.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 1 rows and 1 columns.
+Aggregator did 2 substitutions.
+Reduced MIP has 23 rows, 61 columns, and 123 nonzeros.
+Reduced MIP has 60 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Probing fixed 0 vars, tightened 3 bounds.
+Probing time = 0.00 sec. (0.05 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 23 rows, 61 columns, and 123 nonzeros.
+Reduced MIP has 60 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.08 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Clique table members: 20.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        80712.0000        0.0000           100.00%
+      0     0    47082.0000     4    80712.0000    47082.0000        5   41.67%
+*     0+    0                        50368.0000    47082.0000             6.52%
+      0     0    47082.0000     4    50368.0000       Cuts: 5       15    6.52%
+*     0+    0                        48077.0000    47082.0000             2.07%
+      0     0    47082.0000     6    48077.0000       Cuts: 4       22    2.07%
+*     0+    0                        47464.0000    47082.0000             0.80%
+      0     2    47082.0000     6    47464.0000    47082.0000       22    0.80%
+Elapsed time = 0.00 sec. (1.47 ticks, tree = 0.01 MB, solutions = 4)
+*    20+   14                        47424.0000    47082.0000             0.72%
+*   120+   67                        47389.0000    47082.0000             0.65%
+*   120+   67                        47300.0000    47082.0000             0.46%
+*   284    82      integral     0    47224.0000    47082.0000      448    0.30%
+*   384+  104                        47183.0000    47082.0000             0.21%
+*   384+  103                        47158.0000    47082.0000             0.16%
+*   846   222      integral     0    47151.0000    47082.0000     1355    0.15%
+*   946+  221                        47130.0000    47082.0000             0.10%
+*  1188   231      integral     0    47118.0000    47082.0000     1801    0.08%
+*  2013+  236                        47109.0000    47082.0000             0.06%
+*  2014+  236                        47100.0000    47082.0000             0.04%
+*  2014+    0                        47082.0000    47082.0000             0.00%
+
+Cover cuts applied:  68
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.48 ticks)
+Sequential b&c:
+  Real time             =    0.14 sec. (114.29 ticks)
+                          ------------
+Total (root+branch&cut) =    0.15 sec. (115.77 ticks)
+
+Solution pool: 16 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  4.7082000000e+04
+Solution time =    0.15 sec.  Iterations = 2637  Nodes = 2014
+Deterministic time = 115.77 ticks  (795.85 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpnH55Bl.cplex.sol'.

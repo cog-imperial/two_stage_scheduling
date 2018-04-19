@@ -1,0 +1,65 @@
+Machine activation
+Machine failure 12
+Machine activation
+Machine failure 9
+Machine failure 22
+Processing-time reduction 83 8468
+Processing-time augmentation 298 7853
+Processing-time reduction 19 732
+Processing-time reduction 146 47
+Processing-time augmentation 181 6958
+Job cancellation 170
+Processing-time reduction 179 1847
+Processing-time reduction 115 3045
+Job cancellation 77
+Processing-time augmentation 105 11808
+Job cancellation 243
+Job cancellation 94
+Processing-time augmentation 157 5982
+Job cancellation 271
+Processing-time reduction 256 550
+Job cancellation 33
+Job cancellation 5
+Job cancellation 28
+Job addition 18652
+Processing-time augmentation 85 9389
+Job addition 1730
+Job addition 14001
+Processing-time reduction 48 5108
+Job cancellation 7
+Job addition 18918
+Processing-time reduction 223 2774
+Processing-time augmentation 200 16489
+Job addition 2536
+Job addition 17097
+Processing-time reduction 207 4527
+Job cancellation 109
+Processing-time augmentation 214 13664
+Job cancellation 96
+Job cancellation 214
+Job cancellation 158
+Processing-time reduction 173 2345
+Job cancellation 190
+Job addition 9267
+Processing-time augmentation 68 13582
+Job cancellation 7
+Job cancellation 272
+Job cancellation 41
+Job addition 9849
+Processing-time reduction 106 286
+Job cancellation 58
+Processing-time reduction 265 740
+Processing-time reduction 277 373
+Job addition 12038
+Processing-time augmentation 156 14441
+Job cancellation 48
+Job cancellation 143
+Processing-time augmentation 156 4268
+Job addition 16042
+Job addition 10328
+Job cancellation 44
+Job cancellation 202
+Job addition 5970
+Job cancellation 111
+Job addition 15383
+Processing-time reduction 238 6529

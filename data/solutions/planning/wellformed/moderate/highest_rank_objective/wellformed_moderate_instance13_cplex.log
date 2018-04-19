@@ -1,0 +1,82 @@
+Found incumbent of value 2252.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 2 times.
+Aggregator did 3 substitutions.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.30 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Cover probing fixed 0 vars, tightened 10 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.17 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+Clique table members: 40.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.19 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         2252.0000       99.0000            95.60%
+      0     0      750.6667     5     2252.0000      750.6667       28   66.67%
+*     0+    0                          789.0000      750.6667             4.86%
+      0     0      751.0000     6      789.0000       Cuts: 4       36    4.82%
+*     0+    0                          771.0000      751.0000             2.59%
+      0     0      751.0000     8      771.0000       Cuts: 6       44    2.59%
+      0     0      751.0000     4      771.0000       Cuts: 7       53    2.59%
+*     0+    0                          757.0000      751.0000             0.79%
+      0     0      751.0000     6      757.0000       Cuts: 4       63    0.79%
+*     0+    0                          755.0000      751.0000             0.53%
+*     0+    0                          751.0000      751.0000             0.00%
+      0     0        cutoff            751.0000      751.0000       63    0.00%
+Elapsed time = 0.01 sec. (5.25 ticks, tree = 0.01 MB, solutions = 6)
+
+Mixed integer rounding cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (5.26 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (5.26 ticks)
+
+Populate: phase II 
+Tried aggregator 2 times.
+Aggregator did 3 substitutions.
+Reduced MIP has 43 rows, 121 columns, and 243 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.30 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Cover probing fixed 0 vars, tightened 10 bounds.
+Clique table members: 40.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.19 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          751.0000        0.0000           100.00%
+      0     0      750.6667     5      751.0000      750.6667       28    0.04%
+      0     2      751.0000     4      751.0000      751.0000       28    0.00%
+Elapsed time = 0.01 sec. (3.36 ticks, tree = 0.01 MB, solutions = 16)
+   1219  1221      804.0000     2      751.0000      751.0000      125    0.00%
+   1220  1222      804.0000     0      751.0000      751.0000      125    0.00%
+   1221  1223      804.0000     0      751.0000      751.0000      125    0.00%
+   1222  1224      804.0000     0      751.0000      751.0000      126    0.00%
+   1223  1225      804.0000     2      751.0000      751.0000      127    0.00%
+   1224  1226      804.0000     0      751.0000      751.0000      127    0.00%
+   1225  1227      804.0000     0      751.0000      751.0000      127    0.00%
+   1226  1228      804.0000     0      751.0000      751.0000      128    0.00%
+   1227  1229      804.0000     0      751.0000      751.0000      128    0.00%
+
+Root node processing (before b&c):
+  Real time             =    0.16 sec. (5.06 ticks)
+Sequential b&c:
+  Real time             =    0.65 sec. (318.26 ticks)
+                          ------------
+Total (root+branch&cut) =    0.81 sec. (323.33 ticks)

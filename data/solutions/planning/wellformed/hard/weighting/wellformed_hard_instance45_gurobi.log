@@ -1,0 +1,58 @@
+
+Gurobi 6.5.2 (linux64) logging started Sun Mar  4 01:07:47 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/hard/weighting/wellformed_hard_instance45_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 530 rows, 7516 columns and 15044 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+03]
+  Objective range [1e+00, 2e+04]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.02s
+Presolved: 527 rows, 7513 columns, 15039 nonzeros
+Variable types: 0 continuous, 7513 integer (7500 binary)
+Found heuristic solution: objective 8.227881e+09
+
+Root relaxation: objective 1.097017e+09, 774 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.0970e+09    0   36 8.2279e+09 1.0970e+09  86.7%     -    0s
+H    0     0                    1.241382e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   50 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   52 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   47 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   47 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   51 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   49 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   49 1.2414e+09 1.0970e+09  11.6%     -    0s
+     0     0 1.0970e+09    0   37 1.2414e+09 1.0970e+09  11.6%     -    0s
+H    0     0                    1.191283e+09 1.0970e+09  7.91%     -    0s
+H    0     0                    1.124404e+09 1.0970e+09  2.44%     -    0s
+     0     2 1.0970e+09    0   33 1.1244e+09 1.0970e+09  2.44%     -    0s
+H   27    27                    1.104790e+09 1.0970e+09  0.70%  23.3    0s
+H   81    81                    1.104534e+09 1.0970e+09  0.68%   9.2    1s
+H  517   517                    1.104531e+09 1.0970e+09  0.68%   3.0    1s
+H  993   993                    1.103693e+09 1.0970e+09  0.60%   3.4    2s
+  2167  2156 1.0970e+09  364   37 1.1037e+09 1.0970e+09  0.60%   6.8    5s
+H 2178  2054                    1.103692e+09 1.0970e+09  0.60%  10.1    7s
+H 2205  1969                    1.103679e+09 1.0970e+09  0.60%  10.4    7s
+H 2259  1907                    1.103515e+09 1.0970e+09  0.59%  10.3    8s
+  2716  2033 1.0970e+09  340   23 1.1035e+09 1.0970e+09  0.59%  12.2   10s
+H 2970  2108                    1.103514e+09 1.0970e+09  0.59%  12.8   10s
+H 2991  1598                    1.097055e+09 1.0970e+09  0.00%  12.7   11s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 2
+
+Explored 2991 nodes (41825 simplex iterations) in 11.37 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.097054520000e+09, best bound 1.097038137000e+09, gap 0.0015%

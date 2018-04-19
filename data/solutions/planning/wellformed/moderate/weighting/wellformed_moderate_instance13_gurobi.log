@@ -1,0 +1,46 @@
+
+Gurobi 6.5.2 (linux64) logging started Fri Mar  2 12:47:37 2018
+
+Changed value of parameter LogFile to data/solutions/planning/wellformed/moderate/weighting/wellformed_moderate_instance13_gurobi.log
+   Prev: gurobi.log  Default: 
+Changed value of parameter Threads to 1
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Optimize a model with 46 rows, 124 columns and 248 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+02]
+  Objective range [1e+00, 4e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+00]
+Found heuristic solution: objective 8302
+Presolve removed 3 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 43 rows, 121 columns, 243 nonzeros
+Variable types: 0 continuous, 121 integer (120 binary)
+
+Root relaxation: objective 5.254667e+03, 56 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5254.66667    0    4 8302.00000 5254.66667  36.7%     -    0s
+H    0     0                    5303.0000000 5254.66667  0.91%     -    0s
+H    0     0                    5287.0000000 5254.66667  0.61%     -    0s
+     0     0 5254.66667    0    7 5287.00000 5254.66667  0.61%     -    0s
+H    0     0                    5259.0000000 5254.66667  0.08%     -    0s
+     0     0 5256.00000    0    6 5259.00000 5256.00000  0.06%     -    0s
+     0     0 5256.00000    0    6 5259.00000 5256.00000  0.06%     -    0s
+     0     0 5256.00000    0    8 5259.00000 5256.00000  0.06%     -    0s
+     0     0 5256.00000    0    6 5259.00000 5256.00000  0.06%     -    0s
+     0     0 5256.00000    0    4 5259.00000 5256.00000  0.06%     -    0s
+     0     2 5256.00000    0    4 5259.00000 5256.00000  0.06%     -    0s
+*   42    31              41    5258.0000000 5256.00000  0.04%   2.0    0s
+*   93     2              48    5256.0000000 5256.00000  0.00%   1.7    0s
+
+Cutting planes:
+  Gomory: 1
+
+Explored 94 nodes (290 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.256000000000e+03, best bound 5.256000000000e+03, gap 0.0%

@@ -180,3 +180,5 @@ For each combination of initial instance, initial solution, perturbations and re
 
 - `main.py`: 
   root file performing all steps for obtaining the results 
+
+## 4 References
