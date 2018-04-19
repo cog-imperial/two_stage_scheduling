@@ -7,11 +7,11 @@ Contact: `d.letsios@imperial.ac.uk`; `r.misener@imperial.ac.uk`
 Source code of the methods proposed in Dimitrios Letsios, Ruth Misener, "On Exact On Exact Lexicographic Optimization Methods and Approximate Recovery Strategies in Two-Stage Robust Makespan Scheduling".
 
 
-This repository contains the source code implementing exact, lexicographic optimization methods for the makespan scheduling problem and approximate recovery strategies that fix a schedule if the instance is perturbed. Furthermore, it includes a performance evaluation of exact lexicographic optimization methods and a simulation of a two-stage scheduling problem with uncertainty realization.
+This repository contains the source code implementing exact, lexicographic optimization methods for the LexOpt scheduling problem and approximate recovery strategies to deal with instance perturbations. Furthermore, it includes a performance evaluation of exact lexicographic optimization methods and a simulation of two-stage robust scheduling with uncertainty.
 
 The repository contains a collection of randomly generated, initial makespan problem instances. Planning phase solves every such instance according to one among various lexicographic optimization methods. Uncertainty realization perturbs every instance and generates a modified instance which is close to the initial one. Recovery phase solves the perturbed instance according to some recovery strategy. 
 
-That is, the repository contains:
+The repository contains:
 1. a collection of benchmark, randomly generated, makespan problem instances,
 2. a source code implementing the lexicographic optimization methods in Python 2.7.6 and Pyomo 4.4.1, 
 3. a set of disturbances for each makespan problem instance,
@@ -24,7 +24,7 @@ The repository contains a source code evaluating the performance of exact, lexic
 
 ### 1.1  Benchmark Makespan Problem Instances
 
-This repository contains a collection of 384 makespan problem instances. These instances have been generated randomly using the modules wellformed_instance_generator.py and  degenerate_instance_generator.py in directory lib/input_generation/. Directory data/inputs/instances stores the generated instances. 
+This repository contains a collection of 384 makespan problem instances. These instances have been generated randomly using the modules `wellformed_instance_generator.py` and `degenerate_instance_generator.py` in directory `lib/input_generation/`. Directory `data/inputs/instances` stores the generated instances. 
 
 We have generated diverse instances with different optimal solution structure (well-formed, degenerate), instance size (moderate, intermediate, hard), and probability distribution for generating the job processing times (uniform, normal, symmetric of the normal). In particular, we have generated 96 well-formed moderate, 96 well-formed intermediate, 96 well-formed hard, 48 degenerate moderate, and 48 degenerate intermediate instances of different sizes. For a given size, we have generated three different instances using each of the three probability distributions for processing time generation.
 
@@ -75,7 +75,7 @@ y[0]=0
 y[1]=1
 y[2]=2
 y[3]=2
-…
+...
 ```
 
 ## 2  Two-Stage Scheduling Simulation
@@ -103,7 +103,7 @@ y[0]=0
 y[1]=1
 y[2]=0
 y[3]=2
-…
+...
 ```
 
 ### 2.3  Perturbations
@@ -122,6 +122,7 @@ Job cancellation 9
 Job cancellation 1
 Job addition 25
 Job cancellation 9
+...
 ```
 
 ### 2.4  Recovery
