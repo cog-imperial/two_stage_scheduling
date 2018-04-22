@@ -1,0 +1,65 @@
+
+Log started (V12.6.3.0) Fri Apr 20 20:41:16 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpfGbbUY.pyomo.lp' read.
+Read time = 0.02 sec. (1.59 ticks)
+
+Problem name         : /tmp/tmpfGbbUY.pyomo.lp
+Objective sense      : Minimize
+Variables            :    1250  [Nneg: 1,  Binary: 1236,  General Integer: 13]
+Objective nonzeros   :       1
+Linear constraints   :     231  [Less: 115,  Equal: 116]
+  Nonzeros           :  115725
+  RHS nonzeros       :     104
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1992.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 204 rows and 1201 columns.
+MIP Presolve modified 12 coefficients.
+Aggregator did 12 substitutions.
+Reduced MIP has 15 rows, 37 columns, and 84 nonzeros.
+Reduced MIP has 36 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.65 ticks)
+Found incumbent of value 13605.000000 after 0.01 sec. (9.39 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 15 rows, 37 columns, and 84 nonzeros.
+Reduced MIP has 36 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Clique table members: 3.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        13605.0000     9861.0000            27.52%
+      0     0     9861.0000     4    13605.0000     9861.0000        4   27.52%
+*     0+    0                         9861.0000     9861.0000             0.00%
+      0     0        cutoff           9861.0000     9861.0000        4    0.00%
+Elapsed time = 0.01 sec. (9.67 ticks, tree = 0.01 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (9.72 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (9.72 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  9.8610000000e+03
+Solution time =    0.01 sec.  Iterations = 4  Nodes = 0
+Deterministic time = 9.72 ticks  (1153.61 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmp_mCkbE.cplex.sol'.

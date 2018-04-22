@@ -1,0 +1,42 @@
+
+Log started (V12.6.3.0) Fri Apr 20 21:53:26 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmp4cYnAh.pyomo.lp' read.
+Read time = 0.09 sec. (8.78 ticks)
+
+Problem name         : /tmp/tmp4cYnAh.pyomo.lp
+Objective sense      : Minimize
+Variables            :    3442  [Nneg: 1,  Binary: 3424,  General Integer: 17]
+Objective nonzeros   :       1
+Linear constraints   :     463  [Less: 230,  Equal: 233]
+  Nonzeros           :  649197
+  RHS nonzeros       :     215
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 19973.00       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 3 times.
+MIP Presolve eliminated 434 rows and 3413 columns.
+Aggregator did 29 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (41.96 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (57.11 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (57.11 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  2.0295200000e+06
+Solution time =    0.05 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 57.12 ticks  (1265.87 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmps3bn3P.cplex.sol'.

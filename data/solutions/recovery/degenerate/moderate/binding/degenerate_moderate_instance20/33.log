@@ -1,0 +1,52 @@
+
+Log started (V12.6.3.0) Fri Apr 20 23:04:27 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpi7DSFn.pyomo.lp' read.
+Read time = 0.00 sec. (0.06 ticks)
+
+Problem name         : /tmp/tmpi7DSFn.pyomo.lp
+Objective sense      : Minimize
+Variables            :     150  [Nneg: 1,  Binary: 144,  General Integer: 5]
+Objective nonzeros   :       1
+Linear constraints   :      81  [Less: 40,  Equal: 41]
+  Nonzeros           :    4081
+  RHS nonzeros       :      37
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 3.355443e+07   
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 72 rows and 141 columns.
+MIP Presolve modified 6 coefficients.
+Aggregator did 4 substitutions.
+Reduced MIP has 5 rows, 5 columns, and 12 nonzeros.
+Reduced MIP has 4 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.30 ticks)
+Found incumbent of value 1.7416340e+08 after 0.00 sec. (0.41 ticks)
+Probing time = 0.00 sec. (0.00 ticks)
+Cover probing fixed 0 vars, tightened 4 bounds.
+Tried aggregator 1 time.
+MIP Presolve eliminated 5 rows and 5 columns.
+MIP Presolve modified 5 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.01 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.43 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.43 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.7011598100e+08
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.43 ticks  (365.24 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmp_z5vCW.cplex.sol'.

@@ -1,0 +1,107 @@
+
+Log started (V12.6.3.0) Sun Apr 22 12:29:16 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpcre_aj.pyomo.lp' read.
+Read time = 0.01 sec. (0.59 ticks)
+
+Problem name         : /tmp/tmpcre_aj.pyomo.lp
+Objective sense      : Minimize
+Variables            :     794  [Nneg: 1,  Binary: 780,  General Integer: 13]
+Objective nonzeros   :       1
+Linear constraints   :     157  [Less: 77,  Equal: 80]
+  Nonzeros           :   42446
+  RHS nonzeros       :      66
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 8298339.       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 129 rows and 703 columns.
+Aggregator did 10 substitutions.
+Reduced MIP has 18 rows, 81 columns, and 170 nonzeros.
+Reduced MIP has 80 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.83 ticks)
+Found incumbent of value 6.6753952e+07 after 0.00 sec. (3.88 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 18 rows, 81 columns, and 170 nonzeros.
+Reduced MIP has 80 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.12 ticks)
+Probing time = 0.00 sec. (0.08 ticks)
+Clique table members: 8.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       6.67540e+07   3.09438e+07            53.64%
+      0     0   3.09438e+07    10   6.67540e+07   3.09438e+07       20   53.64%
+*     0+    0                       3.45906e+07   3.09438e+07            10.54%
+      0     0   3.09438e+07     6   3.45906e+07       Cuts: 3       23   10.54%
+*     0+    0                       3.43725e+07   3.09438e+07             9.97%
+      0     0   3.09438e+07     6   3.43725e+07       Cuts: 5       33    9.97%
+*     0+    0                       3.27245e+07   3.09438e+07             5.44%
+      0     0   3.09438e+07     5   3.27245e+07   Impl Bds: 1       35    5.44%
+*     0+    0                       3.26614e+07   3.09438e+07             5.26%
+*     0+    0                       3.26182e+07   3.09438e+07             5.13%
+*     0+    0                       3.24816e+07   3.09438e+07             4.73%
+
+Repeating presolve.
+Tried aggregator 2 times.
+MIP Presolve eliminated 0 rows and 29 columns.
+MIP Presolve modified 7 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 16 rows, 50 columns, and 108 nonzeros.
+Reduced MIP has 49 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Probing time = 0.00 sec. (0.06 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 16 rows, 50 columns, and 108 nonzeros.
+Reduced MIP has 49 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.07 ticks)
+Represolve time = 0.00 sec. (0.44 ticks)
+Probing time = 0.00 sec. (0.06 ticks)
+Clique table members: 33.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.06 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       3.24816e+07   3.09438e+07             4.73%
+      0     0   3.09438e+07     7   3.24816e+07   3.09438e+07       47    4.73%
+*     0+    0                       3.24384e+07   3.09438e+07             4.61%
+      0     0   3.09457e+07    16   3.24384e+07       Cuts: 3       59    4.60%
+*     0+    0                       3.21235e+07   3.09457e+07             3.67%
+      0     0        cutoff         3.21235e+07                     60    0.00%
+Elapsed time = 0.01 sec. (6.64 ticks, tree = 0.01 MB, solutions = 9)
+
+GUB cover cuts applied:  1
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  3
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (6.71 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (6.71 ticks)
+
+Solution pool: 9 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  3.2123504000e+07
+Solution time =    0.01 sec.  Iterations = 60  Nodes = 0
+Deterministic time = 6.71 ticks  (664.36 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpsUyWn5.cplex.sol'.

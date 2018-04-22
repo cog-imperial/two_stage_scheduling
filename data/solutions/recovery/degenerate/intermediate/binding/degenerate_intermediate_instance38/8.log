@@ -1,0 +1,86 @@
+
+Log started (V12.6.3.0) Sun Apr 22 12:34:40 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpdODVK2.pyomo.lp' read.
+Read time = 0.01 sec. (0.68 ticks)
+
+Problem name         : /tmp/tmpdODVK2.pyomo.lp
+Objective sense      : Minimize
+Variables            :    1074  [Nneg: 1,  Binary: 1056,  General Integer: 17]
+Objective nonzeros   :       1
+Linear constraints   :     168  [Less: 82,  Equal: 86]
+  Nonzeros           :   47883
+  RHS nonzeros       :      67
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 117484.0       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 122 rows and 800 columns.
+Aggregator did 13 substitutions.
+Reduced MIP has 33 rows, 261 columns, and 533 nonzeros.
+Reduced MIP has 260 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.84 ticks)
+Found incumbent of value 1386462.000000 after 0.00 sec. (5.09 ticks)
+Probing time = 0.00 sec. (0.35 ticks)
+Cover probing fixed 0 vars, tightened 5 bounds.
+Tried aggregator 1 time.
+Reduced MIP has 33 rows, 261 columns, and 533 nonzeros.
+Reduced MIP has 260 binaries, 1 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.47 ticks)
+Probing time = 0.00 sec. (0.32 ticks)
+Clique table members: 20.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.46 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                      1386462.0000   269852.0000            80.54%
+      0     0   291109.0769    22  1386462.0000   291109.0769       63   79.00%
+*     0+    0                       390852.0000   291109.0769            25.52%
+      0     0   291110.0000    26   390852.0000      Cuts: 17      114   25.52%
+*     0+    0                       390070.0000   291110.0000            25.37%
+      0     0   291110.0000    34   390070.0000      Cuts: 17      184   25.37%
+*     0+    0                       341925.0000   291110.0000            14.86%
+*     0+    0                       323716.0000   291110.0000            10.07%
+*     0+    0                       320204.0000   291110.0000             9.09%
+*     0+    0                       301702.0000   291110.0000             3.51%
+      0     2   291110.0000    25   301702.0000   291110.0000      184    3.51%
+Elapsed time = 0.02 sec. (21.19 ticks, tree = 0.01 MB, solutions = 6)
+*    60+   45                       298428.0000   291110.0000             2.45%
+*   100+   40                       296219.0000   291110.0000             1.72%
+*   193   119      integral     0   295950.0000   291321.9167      989    1.56%
+*   320+  104                       295500.0000   291748.0000             1.27%
+*   340+  107                       295124.0000   291748.0000             1.14%
+*   342   107      integral     0   295096.0000   291748.0000     1536    1.13%
+*   650+  201                       294963.0000   292605.5000             0.80%
+
+Clique cuts applied:  6
+Cover cuts applied:  16
+Implied bound cuts applied:  5
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (21.27 ticks)
+Sequential b&c:
+  Real time             =    0.23 sec. (222.90 ticks)
+                          ------------
+Total (root+branch&cut) =    0.25 sec. (244.17 ticks)
+
+Solution pool: 13 solutions saved.
+
+MIP - Integer optimal, tolerance (0.0001/1e-06):  Objective =  2.9496300000e+05
+Current MIP best bound =  2.9494000000e+05 (gap = 23, 0.01%)
+Solution time =    0.25 sec.  Iterations = 12375  Nodes = 2771 (8)
+Deterministic time = 244.17 ticks  (974.66 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpCbupq3.cplex.sol'.

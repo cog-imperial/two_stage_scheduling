@@ -1,0 +1,82 @@
+
+Log started (V12.6.3.0) Fri Apr 20 17:49:43 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpadJ01H.pyomo.lp' read.
+Read time = 0.00 sec. (0.03 ticks)
+
+Problem name         : /tmp/tmpadJ01H.pyomo.lp
+Objective sense      : Minimize
+Variables            :     107  [Nneg: 1,  Binary: 100,  General Integer: 6]
+Objective nonzeros   :       1
+Linear constraints   :      51  [Less: 25,  Equal: 26]
+  Nonzeros           :    1811
+  RHS nonzeros       :      21
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1636.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 1 time.
+MIP Presolve eliminated 51 rows and 107 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.13 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.18 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.18 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  4.3450000000e+03
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.18 ticks  (179.40 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpTdXMgE.cplex.sol'.
+
+Log started (V12.6.3.0) Fri Apr 20 17:52:47 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmp5rLy4D.pyomo.lp' read.
+Read time = 0.00 sec. (0.03 ticks)
+
+Problem name         : /tmp/tmp5rLy4D.pyomo.lp
+Objective sense      : Minimize
+Variables            :     107  [Nneg: 1,  Binary: 100,  General Integer: 6]
+Objective nonzeros   :       1
+Linear constraints   :      51  [Less: 25,  Equal: 26]
+  Nonzeros           :    1811
+  RHS nonzeros       :      21
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1636.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 1 time.
+MIP Presolve eliminated 51 rows and 107 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.13 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.18 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.18 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  4.3450000000e+03
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.18 ticks  (179.40 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpNjd7hK.cplex.sol'.

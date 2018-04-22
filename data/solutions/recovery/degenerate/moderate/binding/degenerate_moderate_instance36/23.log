@@ -1,0 +1,47 @@
+
+Log started (V12.6.3.0) Fri Apr 20 23:04:37 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpx4qjlL.pyomo.lp' read.
+Read time = 0.00 sec. (0.11 ticks)
+
+Problem name         : /tmp/tmpx4qjlL.pyomo.lp
+Objective sense      : Minimize
+Variables            :     237  [Nneg: 1,  Binary: 230,  General Integer: 6]
+Objective nonzeros   :       1
+Linear constraints   :     104  [Less: 51,  Equal: 53]
+  Nonzeros           :    7146
+  RHS nonzeros       :      47
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 2.657465e+08   
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 1 time.
+MIP Presolve eliminated 88 rows and 192 columns.
+Reduced MIP has 16 rows, 45 columns, and 88 nonzeros.
+Reduced MIP has 40 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.48 ticks)
+Found incumbent of value 3.5512928e+09 after 0.00 sec. (0.68 ticks)
+Probing time = 0.00 sec. (0.05 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 16 rows, 45 columns, and 88 nonzeros.
+Reduced MIP has 40 binaries, 5 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.06 ticks)
+CPLEX Error  3018: Magnitude of variable x236: 2.18045e+09 exceeds integer limit 2100000000.
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.81 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.81 ticks)
+
+Error termination, CPLEX Error  3018.
+Solution time =    0.00 sec.
+Deterministic time = 0.81 ticks  (498.33 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpQMMPaI.cplex.sol'.

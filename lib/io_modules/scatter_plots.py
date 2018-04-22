@@ -2,6 +2,7 @@ from __future__ import division
 from recovered_solution_files import get_recovered_solutions
 from test_files import get_instances
 from ..problem_classes.solver import Solver
+from recovered_instances_list import read_recovered_instances_list
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,9 +23,12 @@ def produce_scatter_plots():
 		#'degenerate/intermediate'
 		#] 
 	
-	test_set = 'wellformed/moderate'
+	#test_set = 'degenerate/intermediate'
+	test_set = 'wellformed'
 	
-	instances = get_instances(test_set)
+	#instances = get_instances(test_set)
+	instances = read_recovered_instances_list(test_set + '/moderate')
+	instances += read_recovered_instances_list(test_set + '/intermediate')
 	
 	normalized_weighted_values = []
 	normalized_makespans = []
@@ -61,7 +65,7 @@ def produce_scatter_plots():
 	plt.ylabel('Normalized recovered makespan')
 	#plt.show()
 	
-	f.savefig('data/scatter_plots/' + test_set.replace('/','_') + '.pdf')
+	f.savefig('data/scatter_plots/' + test_set.replace('/','_') + '_' + method + '.pdf')
 
 # Given a vevtor v, everything is normalized w.r.t. the minimum value
 def min_normalization(v):

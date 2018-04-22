@@ -1,0 +1,82 @@
+
+Log started (V12.6.3.0) Sun Apr 22 12:33:14 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpEi0cfd.pyomo.lp' read.
+Read time = 0.02 sec. (0.85 ticks)
+
+Problem name         : /tmp/tmpEi0cfd.pyomo.lp
+Objective sense      : Minimize
+Variables            :     950  [Nneg: 1,  Binary: 936,  General Integer: 13]
+Objective nonzeros   :       1
+Linear constraints   :     182  [Less: 90,  Equal: 92]
+  Nonzeros           :   61117
+  RHS nonzeros       :      79
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 6.145599e+07   
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 1 time.
+MIP Presolve eliminated 151 rows and 839 columns.
+Reduced MIP has 31 rows, 111 columns, and 231 nonzeros.
+Reduced MIP has 99 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.37 ticks)
+Found incumbent of value 5.4696180e+08 after 0.00 sec. (4.87 ticks)
+Probing time = 0.00 sec. (0.32 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 31 rows, 111 columns, and 231 nonzeros.
+Reduced MIP has 99 binaries, 12 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.18 ticks)
+Probing time = 0.00 sec. (0.32 ticks)
+Clique table members: 9.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (0.26 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       5.46962e+08   2.29041e+08            58.12%
+      0     0   2.29041e+08    14   5.46962e+08   2.29041e+08       58   58.12%
+      0     0   2.29041e+08    12   5.46962e+08      Fract: 3       69   58.12%
+      0     0   2.29041e+08    15   5.46962e+08      Fract: 4      110   58.12%
+*     0+    0                       2.96289e+08   2.29041e+08            22.70%
+*     0+    0                       2.72933e+08   2.29041e+08            16.08%
+      0     2   2.29041e+08    12   2.72933e+08   2.29041e+08      110   16.08%
+Elapsed time = 0.01 sec. (9.33 ticks, tree = 0.01 MB, solutions = 3)
+*    20+   18                       2.71385e+08   2.29041e+08            15.60%
+*    30+   26                       2.68017e+08   2.29041e+08            14.54%
+*    40+   36                       2.67976e+08   2.29041e+08            14.53%
+*    51    35      integral     0   2.50408e+08   2.29041e+08      561    8.53%
+*    60+   33                       2.50371e+08   2.29041e+08             8.52%
+*    72    44      integral     0   2.49989e+08   2.29041e+08      663    8.38%
+*    80+   25                       2.41306e+08   2.29041e+08             5.08%
+*    99    38      integral     0   2.40961e+08   2.29041e+08      812    4.95%
+*   100    29      integral     0   2.40638e+08   2.29041e+08      813    4.82%
+*   106    26      integral     0   2.40219e+08   2.29041e+08      846    4.65%
+*   116    28      integral     0   2.39340e+08   2.29041e+08      897    4.30%
+*   158    15      integral     0   2.39264e+08   2.30020e+08     1133    3.86%
+*   170+   12                       2.39053e+08   2.33660e+08             2.26%
+*   180+   11                       2.38634e+08   2.33660e+08             2.08%
+
+Gomory fractional cuts applied:  6
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (9.45 ticks)
+Sequential b&c:
+  Real time             =    0.01 sec. (9.32 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (18.77 ticks)
+
+Solution pool: 17 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  2.3863431300e+08
+Solution time =    0.02 sec.  Iterations = 1281  Nodes = 213
+Deterministic time = 18.78 ticks  (777.71 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmp6FM27p.cplex.sol'.

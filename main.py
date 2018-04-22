@@ -17,6 +17,9 @@ from lib.solution_pool_generation.solution_pool_handler import produce_solution_
 # Makespan problem instance disturbances generation
 from lib.input_generation.perturbator import generate_perturbations
 
+# Select perturbed instances to be recovered
+from lib.input_generation.perturbed_instance_selector import select_perturbed_instances
+
 # Recovery strategies
 from lib.recovery.recovery_handler import recovery_solve
 
@@ -43,8 +46,11 @@ from lib.io_modules.scatter_plots import produce_scatter_plots
 # Perturbations generation
 #generate_perturbations()
 
+# Select perturbed instances
+#select_perturbed_instances()
+
 # Recovery
-recovery_solve()
+#recovery_solve()
 
 # Recovery strategies scatter plots
-#produce_scatter_plots()
+produce_scatter_plots()

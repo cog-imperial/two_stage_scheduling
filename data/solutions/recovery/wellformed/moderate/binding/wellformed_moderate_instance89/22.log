@@ -1,0 +1,129 @@
+
+Log started (V12.6.3.0) Fri Apr 20 17:47:01 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpL_fn4r.pyomo.lp' read.
+Read time = 0.01 sec. (0.13 ticks)
+
+Problem name         : /tmp/tmpL_fn4r.pyomo.lp
+Objective sense      : Minimize
+Variables            :     260  [Nneg: 1,  Binary: 252,  General Integer: 7]
+Objective nonzeros   :       1
+Linear constraints   :      97  [Less: 48,  Equal: 49]
+  Nonzeros           :    8917
+  RHS nonzeros       :      43
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1980.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 91 rows and 254 columns.
+MIP Presolve modified 8 coefficients.
+Aggregator did 6 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.66 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.89 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.89 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.0427000000e+04
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.89 ticks  (572.82 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpVTUYLW.cplex.sol'.
+
+Log started (V12.6.3.0) Fri Apr 20 17:49:29 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpwx3MJ5.pyomo.lp' read.
+Read time = 0.00 sec. (0.13 ticks)
+
+Problem name         : /tmp/tmpwx3MJ5.pyomo.lp
+Objective sense      : Minimize
+Variables            :     260  [Nneg: 1,  Binary: 252,  General Integer: 7]
+Objective nonzeros   :       1
+Linear constraints   :      97  [Less: 48,  Equal: 49]
+  Nonzeros           :    8917
+  RHS nonzeros       :      43
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1980.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 91 rows and 254 columns.
+MIP Presolve modified 8 coefficients.
+Aggregator did 6 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.66 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.89 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.89 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.0427000000e+04
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.89 ticks  (702.37 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmpmyznDS.cplex.sol'.
+
+Log started (V12.6.3.0) Fri Apr 20 17:52:31 2018
+
+New value for default parallel thread count: 1
+
+Problem '/tmp/tmpTpmevy.pyomo.lp' read.
+Read time = 0.00 sec. (0.13 ticks)
+
+Problem name         : /tmp/tmpTpmevy.pyomo.lp
+Objective sense      : Minimize
+Variables            :     260  [Nneg: 1,  Binary: 252,  General Integer: 7]
+Objective nonzeros   :       1
+Linear constraints   :      97  [Less: 48,  Equal: 49]
+  Nonzeros           :    8917
+  RHS nonzeros       :      43
+
+Variables            : Min LB: 0.000000         Max UB: 1.000000       
+Objective nonzeros   : Min   : 1.000000         Max   : 1.000000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.000000         Max   : 1980.000       
+  RHS nonzeros       : Min   : 1.000000         Max   : 1.000000       
+Tried aggregator 2 times.
+MIP Presolve eliminated 91 rows and 254 columns.
+MIP Presolve modified 8 coefficients.
+Aggregator did 6 substitutions.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.66 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.89 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.89 ticks)
+
+Solution pool: 1 solution saved.
+
+MIP - Integer optimal solution:  Objective =  1.0427000000e+04
+Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
+Deterministic time = 0.89 ticks  (802.66 ticks/sec)
+
+
+Incumbent solution written to file '/tmp/tmp0NBCo8.cplex.sol'.

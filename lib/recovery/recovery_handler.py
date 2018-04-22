@@ -8,12 +8,13 @@ from ..io_modules.solution_pool_files import get_solution_pool
 from ..problem_classes.schedule import weighted_value
 from ..problem_classes.instance import perturbe_instance
 from ..io_modules.recovered_solution_files import write_recovered_solution_file
+from ..io_modules.recovered_instances_list import read_recovered_instances_list
 from strategies.binding import bindingly_recover
 from strategies.flexible import flexibly_recover
 
 def recovery_solve():
 	
-	method = 'flexible'
+	method = 'binding'
 	commercial_tool = 'cplex'
 	stage = 'recovery'
 	recovery_solver = Solver(method, commercial_tool, stage)
@@ -25,10 +26,12 @@ def recovery_solve():
 		#'degenerate/intermediate'
 		#]
 	
-	test_set = 'wellformed/intermediate'
+	## List of initial instances (before uncertainty realization)
+	#test_set = 'wellformed/intermediate'
+	#instances = get_instances(test_set)
 	
-	# List of initial instances (before uncertainty realization)
-	instances = get_instances(test_set)
+	test_set = 'degenerate/intermediate'
+	instances = read_recovered_instances_list(test_set)
 	
 	for instance in instances:
 		
@@ -46,8 +49,10 @@ def recovery_solve():
 			planning_weighted_value = str(weighted_value(instance, schedule))
 			
 			perturbed_instance = perturbe_instance(instance, schedule, perturbations, method)
+			print(sum(perturbed_instance.p))
 			
 			recovered_schedule = solve(perturbed_instance, sol_id, recovery_solver)
+			print(sum(recovered_schedule.C))
 			
 			write_recovered_solution_file(perturbed_instance, sol_id, recovery_solver, recovered_schedule, planning_weighted_value)
 
