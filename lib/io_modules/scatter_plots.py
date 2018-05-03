@@ -11,7 +11,7 @@ def produce_scatter_plots():
 	
 	#methods = ['binding', 'flexible']
 	
-	method = 'binding'
+	method = 'flexible'
 	commercial_tool = 'cplex'
 	stage = 'recovery'
 	recovery_solver = Solver(method, commercial_tool, stage)
@@ -61,6 +61,19 @@ def produce_scatter_plots():
 	plt.scatter(normalized_weighted_values, normalized_makespans, s = 10, alpha = 0.2)
 	plt.xlim(0.97, 3.1)
 	plt.ylim(0.9, 5.5)
+	
+
+	SMALL_SIZE = 18
+	MEDIUM_SIZE = 18
+	BIGGER_SIZE = 18
+
+	plt.rc('font', size=SMALL_SIZE)          # controls default text sizes
+	plt.rc('axes', titlesize=SMALL_SIZE)     # fontsize of the axes title
+	plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
+	plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+	plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+	plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
+	
 	plt.xlabel('Normalized planning weighted value')
 	plt.ylabel('Normalized recovered makespan')
 	#plt.show()

@@ -17,7 +17,7 @@ def plot_planning_performance_profiles():
 		#'degenerate/intermediate'
 		#]
 	
-	test_set = 'wellformed/intermediate'
+	test_set = 'degenerate/moderate'
 	
 	# A performance profile is generated for each of the following metrics.
 	#metrics = ['elapsed_time', 'upper_bound']
@@ -45,9 +45,11 @@ def plot_planning_performance_profile(test_set, instances, solvers, metric, tex_
 	# setting the discretization for each value of \tau
 	if metric == 'elapsed_time' : (scale, tau_init, tau_step, tau_margin) = ('log2', 0, 0.05, 0.5)
 	if metric == 'upper_bound' and test_set == 'wellformed/moderate': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.0001, 0.0001)
+	if metric == 'upper_bound' and test_set == 'degenerate/moderate': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.0001, 0.0001)
 	#if metric == 'upper_bound' and difficulty == 'moderate': (scale, tau_init, tau_step, tau_margin) = ('log2', 0, 0.01, 0.5)
-	if metric == 'upper_bound' and test_set =='intermediate': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.0005, 0.001)
-	if metric == 'upper_bound' and test_set =='hard': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.01, 0.005)
+	if metric == 'upper_bound' and test_set =='wellformed/intermediate': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.0005, 0.001)
+	if metric == 'upper_bound' and test_set =='degenerate/intermediate': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.0005, 0.001)
+	if metric == 'upper_bound' and test_set =='wellformed/hard': (scale, tau_init, tau_step, tau_margin) = ('', 1, 0.01, 0.005)
 	
 	#print(scale)
 	
