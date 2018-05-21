@@ -4,7 +4,7 @@ Date: 27 February 2018
 Authors: Dimitrios Letsios, Ruth Misener  
 Contact: `d.letsios@imperial.ac.uk`; `r.misener@imperial.ac.uk`
 
-Source code of the methods proposed in Dimitrios Letsios, Ruth Misener, "On Exact On Exact Lexicographic Optimization Methods and Approximate Recovery Strategies in Two-Stage Robust Makespan Scheduling".
+Source code of the methods proposed in Dimitrios Letsios, Ruth Misener, "Exact Lexicographic Scheduling and Approximate Rescheduling".
 
 
 This repository contains the source code implementing exact, lexicographic optimization methods for the LexOpt scheduling problem and approximate recovery strategies to deal with instance perturbations. Furthermore, it includes a performance evaluation of exact lexicographic optimization methods and a simulation of two-stage robust scheduling with uncertainty.
