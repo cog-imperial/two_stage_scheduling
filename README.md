@@ -1,4 +1,4 @@
-# On Exact Lexicographic Optimization Methods and Approximate Recovery Strategies in Two-Stage Robust Makespan Scheduling
+# Exact Lexicographic Scheduling and Approximate Rescheduling
 
 Date: 27 February 2018  
 Authors: Dimitrios Letsios, Ruth Misener  
